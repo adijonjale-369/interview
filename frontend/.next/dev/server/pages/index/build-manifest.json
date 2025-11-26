@@ -1,0 +1,40 @@
+{
+  "devFiles": [],
+  "ampDevFiles": [],
+  "polyfillFiles": [],
+  "lowPriorityFiles": [],
+  "rootMainFiles": [],
+  "pages": {
+    "/": [
+      "static/chunks/node_modules_@mui_x-telemetry_esm_runtime_get-context_02371093.js",
+      "static/chunks/[root-of-the-server]__bd250ce6._.js",
+      "static/chunks/node_modules_next_dist_compiled_caaa605a._.js",
+      "static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js",
+      "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+      "static/chunks/node_modules_next_dist_7fdbac9b._.js",
+      "static/chunks/node_modules_react_e3593a73._.js",
+      "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
+      "static/chunks/node_modules_react-dom_8a8085df._.js",
+      "static/chunks/node_modules_@mui_system_esm_0a8b9928._.js",
+      "static/chunks/node_modules_@mui_material_esm_23fd753a._.js",
+      "static/chunks/node_modules_@mui_x-date-pickers_esm_8cfa8369._.js",
+      "static/chunks/node_modules_@mui_x-date-pickers-pro_esm_3832d5ff._.js",
+      "static/chunks/node_modules_@popperjs_core_lib_bd65ae83._.js",
+      "static/chunks/node_modules_date-fns_6deb32cb._.js",
+      "static/chunks/node_modules_axios_lib_2c8bf6cb._.js",
+      "static/chunks/node_modules_@mui_x-charts_esm_internals_64f281cb._.js",
+      "static/chunks/node_modules_@mui_x-charts_esm_LineChart_6306f252._.js",
+      "static/chunks/node_modules_@mui_x-charts_esm_BarChart_975db2ca._.js",
+      "static/chunks/node_modules_@mui_x-charts_esm_PieChart_cecf52cd._.js",
+      "static/chunks/node_modules_@mui_x-charts_esm_483e0c25._.js",
+      "static/chunks/node_modules_@mui_x-internal-gestures_esm_core_2ed88754._.js",
+      "static/chunks/node_modules_@mui_x-data-grid_components_8f753b75._.js",
+      "static/chunks/node_modules_@mui_x-data-grid_hooks_ba4ca1d6._.js",
+      "static/chunks/node_modules_@mui_x-data-grid_80936c2f._.js",
+      "static/chunks/node_modules_c23110bb._.js",
+      "static/chunks/pages_index_2da965e7._.js",
+      "static/chunks/turbopack-pages_index_0ce4f5e9._.js"
+    ]
+  },
+  "ampFirstPages": []
+}

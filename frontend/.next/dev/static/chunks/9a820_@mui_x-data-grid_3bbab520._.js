@@ -1,0 +1,3073 @@
+(globalThis.TURBOPACK || (globalThis.TURBOPACK = [])).push([typeof document === "object" ? document.currentScript : undefined,
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/gridClasses.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getDataGridUtilityClass",
+    ()=>getDataGridUtilityClass,
+    "gridClasses",
+    ()=>gridClasses
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__generateUtilityClasses$3e$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/utils/esm/generateUtilityClasses/generateUtilityClasses.js [client] (ecmascript) <export default as generateUtilityClasses>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__generateUtilityClass$3e$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/utils/esm/generateUtilityClass/generateUtilityClass.js [client] (ecmascript) <export default as generateUtilityClass>");
+;
+function getDataGridUtilityClass(slot) {
+    return (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClass$2f$generateUtilityClass$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__generateUtilityClass$3e$__["generateUtilityClass"])('MuiDataGrid', slot);
+}
+const gridClasses = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$generateUtilityClasses$2f$generateUtilityClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__generateUtilityClasses$3e$__["generateUtilityClasses"])('MuiDataGrid', [
+    'actionsCell',
+    'aggregationColumnHeader',
+    'aggregationColumnHeader--alignLeft',
+    'aggregationColumnHeader--alignCenter',
+    'aggregationColumnHeader--alignRight',
+    'autoHeight',
+    'booleanCell',
+    'cell--editable',
+    'cell--editing',
+    'cell--textCenter',
+    'cell--textLeft',
+    'cell--textRight',
+    'cell--withRenderer',
+    'cell',
+    'cellContent',
+    'cellCheckbox',
+    'cellSkeleton',
+    'checkboxInput',
+    'columnHeader--alignCenter',
+    'columnHeader--alignLeft',
+    'columnHeader--alignRight',
+    'columnHeader--dragging',
+    'columnHeader--moving',
+    'columnHeader--numeric',
+    'columnHeader--sortable',
+    'columnHeader--sorted',
+    'columnHeader--filtered',
+    'columnHeader',
+    'columnHeaderCheckbox',
+    'columnHeaderDraggableContainer',
+    'columnHeaderDropZone',
+    'columnHeaderTitle',
+    'columnHeaderTitleContainer',
+    'columnHeaderTitleContainerContent',
+    'columnGroupHeader',
+    'columnHeader--filledGroup',
+    'columnHeader--emptyGroup',
+    'columnHeader--showColumnBorder',
+    'columnHeaders',
+    'columnHeadersInner',
+    'columnHeadersInner--scrollable',
+    'columnSeparator--resizable',
+    'columnSeparator--resizing',
+    'columnSeparator--sideLeft',
+    'columnSeparator--sideRight',
+    'columnSeparator',
+    'columnsPanel',
+    'columnsPanelRow',
+    'detailPanel',
+    'detailPanels',
+    'detailPanelToggleCell',
+    'detailPanelToggleCell--expanded',
+    'footerCell',
+    'panel',
+    'panelHeader',
+    'panelWrapper',
+    'panelContent',
+    'panelFooter',
+    'paper',
+    'editBooleanCell',
+    'editInputCell',
+    'filterForm',
+    'filterFormDeleteIcon',
+    'filterFormLinkOperatorInput',
+    'filterFormColumnInput',
+    'filterFormOperatorInput',
+    'filterFormValueInput',
+    'filterIcon',
+    'footerContainer',
+    'iconButtonContainer',
+    'iconSeparator',
+    'main',
+    'menu',
+    'menuIcon',
+    'menuIconButton',
+    'menuOpen',
+    'menuList',
+    'overlay',
+    'root',
+    'root--densityStandard',
+    'root--densityComfortable',
+    'root--densityCompact',
+    'row',
+    'row--editable',
+    'row--editing',
+    'row--lastVisible',
+    'row--dragging',
+    'row--dynamicHeight',
+    'row--detailPanelExpanded',
+    'rowReorderCellPlaceholder',
+    'rowCount',
+    'rowReorderCellContainer',
+    'rowReorderCell',
+    'rowReorderCell--draggable',
+    'scrollArea--left',
+    'scrollArea--right',
+    'scrollArea',
+    'selectedRowCount',
+    'sortIcon',
+    'toolbarContainer',
+    'toolbarFilterList',
+    'virtualScroller',
+    'virtualScrollerContent',
+    'virtualScrollerContent--overflowed',
+    'virtualScrollerRenderZone',
+    'pinnedColumns',
+    'pinnedColumns--left',
+    'pinnedColumns--right',
+    'pinnedColumnHeaders',
+    'pinnedColumnHeaders--left',
+    'pinnedColumnHeaders--right',
+    'withBorder',
+    'treeDataGroupingCell',
+    'treeDataGroupingCellToggle',
+    'groupingCriteriaCell',
+    'groupingCriteriaCellToggle',
+    'pinnedRows',
+    'pinnedRows--top',
+    'pinnedRows--bottom',
+    'pinnedRowsRenderZone'
+]);
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/gridDetailPanelToggleField.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Can't import from pro package - hence duplication
+__turbopack_context__.s([
+    "GRID_DETAIL_PANEL_TOGGLE_FIELD",
+    ()=>GRID_DETAIL_PANEL_TOGGLE_FIELD
+]);
+const GRID_DETAIL_PANEL_TOGGLE_FIELD = '__detail_panel_toggle__';
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/envConstants.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// A guide to feature toggling (deprecated)
+//
+// The feature toggle is:
+// - independent from the NODE_ENV
+// - isn't pruning code in production, as the objective is to eventually ship the code.
+// - doesn't allow to cherry-pick which feature to enable
+//
+// By default, the experimental features are only enabled in:
+// - the local environment
+// - the pull request previews
+//
+// Reviewers can force the value with the local storage and the GRID_EXPERIMENTAL_ENABLED key:
+// - 'true' => force it to be enabled
+// - 'false' => force it to be disabled
+//
+// Developers (users) are discouraged to enable the experimental feature by setting the GRID_EXPERIMENTAL_ENABLED env.
+// Instead, prefer exposing experimental APIs, for instance, a prop or a new `unstable_` module.
+__turbopack_context__.s([
+    "GRID_EXPERIMENTAL_ENABLED",
+    ()=>GRID_EXPERIMENTAL_ENABLED
+]);
+const GRID_EXPERIMENTAL_ENABLED = false;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/defaultGridSlotsComponents.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "DATA_GRID_DEFAULT_SLOTS_COMPONENTS",
+    ()=>DATA_GRID_DEFAULT_SLOTS_COMPONENTS
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Checkbox$2f$Checkbox$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/Checkbox/Checkbox.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/TextField/TextField.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormControl$2f$FormControl$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/FormControl/FormControl.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Select$2f$Select$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/Select/Select.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Switch$2f$Switch$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/Switch/Switch.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/Button/Button.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/Tooltip/Tooltip.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$Popper$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/Popper/Popper.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/icons/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridCell.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridSkeletonCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridSkeletonCell.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$menu$2f$columnMenu$2f$GridColumnMenu$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/menu/columnMenu/GridColumnMenu.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$GridColumnsPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/GridColumnsPanel.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterPanel.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridFooter$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridFooter.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridHeader$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridHeader.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridLoadingOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridLoadingOverlay.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridNoRowsOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridNoRowsOverlay.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridPagination$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridPagination.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$GridPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/GridPanel.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$GridPreferencesPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/GridPreferencesPanel.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridRow$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridRow.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnHeaders$2f$GridColumnHeaderFilterIconButton$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnHeaderFilterIconButton.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnHeaders$2f$GridColumnUnsortedIcon$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/columnHeaders/GridColumnUnsortedIcon.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$ErrorOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/ErrorOverlay.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridNoResultsOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridNoResultsOverlay.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const DEFAULT_GRID_ICON_SLOTS_COMPONENTS = {
+    BooleanCellTrueIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridCheckIcon"],
+    BooleanCellFalseIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridCloseIcon"],
+    ColumnMenuIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridTripleDotsVerticalIcon"],
+    OpenFilterButtonIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterListIcon"],
+    FilterPanelDeleteIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridCloseIcon"],
+    ColumnFilteredIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterAltIcon"],
+    ColumnSelectorIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridColumnIcon"],
+    ColumnUnsortedIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnHeaders$2f$GridColumnUnsortedIcon$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridColumnUnsortedIcon"],
+    ColumnSortedAscendingIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridArrowUpwardIcon"],
+    ColumnSortedDescendingIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridArrowDownwardIcon"],
+    ColumnResizeIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridSeparatorIcon"],
+    DensityCompactIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridViewHeadlineIcon"],
+    DensityStandardIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridTableRowsIcon"],
+    DensityComfortableIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridViewStreamIcon"],
+    ExportIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridSaveAltIcon"],
+    MoreActionsIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridMoreVertIcon"],
+    TreeDataCollapseIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridExpandMoreIcon"],
+    TreeDataExpandIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridKeyboardArrowRight"],
+    GroupingCriteriaCollapseIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridExpandMoreIcon"],
+    GroupingCriteriaExpandIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridKeyboardArrowRight"],
+    DetailPanelExpandIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridAddIcon"],
+    DetailPanelCollapseIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridRemoveIcon"],
+    RowReorderIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridDragIcon"],
+    QuickFilterIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridSearchIcon"],
+    QuickFilterClearIcon: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$icons$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridCloseIcon"]
+};
+const DATA_GRID_DEFAULT_SLOTS_COMPONENTS = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, DEFAULT_GRID_ICON_SLOTS_COMPONENTS, {
+    BaseCheckbox: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Checkbox$2f$Checkbox$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BaseTextField: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$TextField$2f$TextField$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BaseFormControl: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$FormControl$2f$FormControl$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BaseSelect: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Select$2f$Select$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BaseSwitch: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Switch$2f$Switch$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BaseButton: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Button$2f$Button$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BaseTooltip: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Tooltip$2f$Tooltip$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    BasePopper: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$Popper$2f$Popper$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"],
+    Cell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridCell"],
+    SkeletonCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridSkeletonCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridSkeletonCell"],
+    ColumnHeaderFilterIconButton: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnHeaders$2f$GridColumnHeaderFilterIconButton$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridColumnHeaderFilterIconButton"],
+    ColumnMenu: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$menu$2f$columnMenu$2f$GridColumnMenu$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridColumnMenu"],
+    ErrorOverlay: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$ErrorOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__["ErrorOverlay"],
+    Footer: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridFooter$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFooter"],
+    Header: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridHeader$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridHeader"],
+    Toolbar: null,
+    PreferencesPanel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$GridPreferencesPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridPreferencesPanel"],
+    LoadingOverlay: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridLoadingOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridLoadingOverlay"],
+    NoResultsOverlay: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridNoResultsOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridNoResultsOverlay"],
+    NoRowsOverlay: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridNoRowsOverlay$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridNoRowsOverlay"],
+    Pagination: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridPagination$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridPagination"],
+    FilterPanel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterPanel"],
+    ColumnsPanel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$GridColumnsPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridColumnsPanel"],
+    Panel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$GridPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridPanel"],
+    Row: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridRow$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridRow"]
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/localeTextConstants.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_DEFAULT_LOCALE_TEXT",
+    ()=>GRID_DEFAULT_LOCALE_TEXT
+]);
+const GRID_DEFAULT_LOCALE_TEXT = {
+    // Root
+    noRowsLabel: 'No rows',
+    noResultsOverlayLabel: 'No results found.',
+    errorOverlayDefaultLabel: 'An error occurred.',
+    // Density selector toolbar button text
+    toolbarDensity: 'Density',
+    toolbarDensityLabel: 'Density',
+    toolbarDensityCompact: 'Compact',
+    toolbarDensityStandard: 'Standard',
+    toolbarDensityComfortable: 'Comfortable',
+    // Columns selector toolbar button text
+    toolbarColumns: 'Columns',
+    toolbarColumnsLabel: 'Select columns',
+    // Filters toolbar button text
+    toolbarFilters: 'Filters',
+    toolbarFiltersLabel: 'Show filters',
+    toolbarFiltersTooltipHide: 'Hide filters',
+    toolbarFiltersTooltipShow: 'Show filters',
+    toolbarFiltersTooltipActive: (count)=>count !== 1 ? `${count} active filters` : `${count} active filter`,
+    // Quick filter toolbar field
+    toolbarQuickFilterPlaceholder: 'Search…',
+    toolbarQuickFilterLabel: 'Search',
+    toolbarQuickFilterDeleteIconLabel: 'Clear',
+    // Export selector toolbar button text
+    toolbarExport: 'Export',
+    toolbarExportLabel: 'Export',
+    toolbarExportCSV: 'Download as CSV',
+    toolbarExportPrint: 'Print',
+    toolbarExportExcel: 'Download as Excel',
+    // Columns panel text
+    columnsPanelTextFieldLabel: 'Find column',
+    columnsPanelTextFieldPlaceholder: 'Column title',
+    columnsPanelDragIconLabel: 'Reorder column',
+    columnsPanelShowAllButton: 'Show all',
+    columnsPanelHideAllButton: 'Hide all',
+    // Filter panel text
+    filterPanelAddFilter: 'Add filter',
+    filterPanelDeleteIconLabel: 'Delete',
+    filterPanelLinkOperator: 'Logic operator',
+    filterPanelOperators: 'Operator',
+    // TODO v6: rename to filterPanelOperator
+    filterPanelOperatorAnd: 'And',
+    filterPanelOperatorOr: 'Or',
+    filterPanelColumns: 'Columns',
+    filterPanelInputLabel: 'Value',
+    filterPanelInputPlaceholder: 'Filter value',
+    // Filter operators text
+    filterOperatorContains: 'contains',
+    filterOperatorEquals: 'equals',
+    filterOperatorStartsWith: 'starts with',
+    filterOperatorEndsWith: 'ends with',
+    filterOperatorIs: 'is',
+    filterOperatorNot: 'is not',
+    filterOperatorAfter: 'is after',
+    filterOperatorOnOrAfter: 'is on or after',
+    filterOperatorBefore: 'is before',
+    filterOperatorOnOrBefore: 'is on or before',
+    filterOperatorIsEmpty: 'is empty',
+    filterOperatorIsNotEmpty: 'is not empty',
+    filterOperatorIsAnyOf: 'is any of',
+    // Filter values text
+    filterValueAny: 'any',
+    filterValueTrue: 'true',
+    filterValueFalse: 'false',
+    // Column menu text
+    columnMenuLabel: 'Menu',
+    columnMenuShowColumns: 'Show columns',
+    columnMenuFilter: 'Filter',
+    columnMenuHideColumn: 'Hide',
+    columnMenuUnsort: 'Unsort',
+    columnMenuSortAsc: 'Sort by ASC',
+    columnMenuSortDesc: 'Sort by DESC',
+    // Column header text
+    columnHeaderFiltersTooltipActive: (count)=>count !== 1 ? `${count} active filters` : `${count} active filter`,
+    columnHeaderFiltersLabel: 'Show filters',
+    columnHeaderSortIconLabel: 'Sort',
+    // Rows selected footer text
+    footerRowSelected: (count)=>count !== 1 ? `${count.toLocaleString()} rows selected` : `${count.toLocaleString()} row selected`,
+    // Total row amount footer text
+    footerTotalRows: 'Total Rows:',
+    // Total visible row amount footer text
+    footerTotalVisibleRows: (visibleCount, totalCount)=>`${visibleCount.toLocaleString()} of ${totalCount.toLocaleString()}`,
+    // Checkbox selection text
+    checkboxSelectionHeaderName: 'Checkbox selection',
+    checkboxSelectionSelectAllRows: 'Select all rows',
+    checkboxSelectionUnselectAllRows: 'Unselect all rows',
+    checkboxSelectionSelectRow: 'Select row',
+    checkboxSelectionUnselectRow: 'Unselect row',
+    // Boolean cell text
+    booleanCellTrueLabel: 'yes',
+    booleanCellFalseLabel: 'no',
+    // Actions cell more text
+    actionsCellMore: 'more',
+    // Column pinning text
+    pinToLeft: 'Pin to left',
+    pinToRight: 'Pin to right',
+    unpin: 'Unpin',
+    // Tree Data
+    treeDataGroupingHeaderName: 'Group',
+    treeDataExpand: 'see children',
+    treeDataCollapse: 'hide children',
+    // Grouping columns
+    groupingColumnHeaderName: 'Group',
+    groupColumn: (name)=>`Group by ${name}`,
+    unGroupColumn: (name)=>`Stop grouping by ${name}`,
+    // Master/detail
+    detailPanelToggle: 'Detail panel toggle',
+    expandDetailPanel: 'Expand',
+    collapseDetailPanel: 'Collapse',
+    // Used core components translation keys
+    MuiTablePagination: {},
+    // Row reordering text
+    rowReorderingHeaderName: 'Row reordering',
+    // Aggregation
+    aggregationMenuItemHeader: 'Aggregation',
+    aggregationFunctionLabelSum: 'sum',
+    aggregationFunctionLabelAvg: 'avg',
+    aggregationFunctionLabelMin: 'min',
+    aggregationFunctionLabelMax: 'max',
+    aggregationFunctionLabelSize: 'size'
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/context/GridRootPropsContext.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GridRootPropsContext",
+    ()=>GridRootPropsContext
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/project-root/frontend/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/index.js [client] (ecmascript)");
+;
+const GridRootPropsContext = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["createContext"](undefined);
+if ("TURBOPACK compile-time truthy", 1) {
+    GridRootPropsContext.displayName = 'GridRootPropsContext';
+}
+;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/context/GridContextProvider.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GridContextProvider",
+    ()=>GridContextProvider
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridApiContext$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/GridApiContext.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$context$2f$GridRootPropsContext$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/context/GridRootPropsContext.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/jsx-runtime.js [client] (ecmascript)");
+;
+;
+;
+;
+const GridContextProvider = ({ apiRef, props, children })=>{
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$context$2f$GridRootPropsContext$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridRootPropsContext"].Provider, {
+        value: props,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$GridApiContext$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridApiContext"].Provider, {
+            value: apiRef,
+            children: children
+        })
+    });
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/lib/createDetectElementResize/index.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Detect Element Resize.
+ * https://github.com/sdecima/javascript-detect-element-resize
+ * Sebastian Decima
+ *
+ * Forked from version 0.5.3; includes the following modifications:
+ * 1) Guard against unsafe 'window' and 'document' references (to support SSR).
+ * 2) Defer initialization code via a top-level function wrapper (to support SSR).
+ * 3) Avoid unnecessary reflows by not measuring size for scroll events bubbling from children.
+ * 4) Add nonce for style element.
+ *
+ * TODO replace with https://developer.mozilla.org/en-US/docs/Web/API/ResizeObserver
+ * once browser support allows it.
+ **/ __turbopack_context__.s([
+    "default",
+    ()=>createDetectElementResize
+]);
+function createDetectElementResize(nonce, hostWindow) {
+    var resetTriggers = function resetTriggers(element) {
+        var triggers = element.__resizeTriggers__, expand = triggers.firstElementChild, contract = triggers.lastElementChild, expandChild = expand.firstElementChild;
+        contract.scrollLeft = contract.scrollWidth;
+        contract.scrollTop = contract.scrollHeight;
+        expandChild.style.width = expand.offsetWidth + 1 + 'px';
+        expandChild.style.height = expand.offsetHeight + 1 + 'px';
+        expand.scrollLeft = expand.scrollWidth;
+        expand.scrollTop = expand.scrollHeight;
+    };
+    var checkTriggers = function checkTriggers(element) {
+        return element.offsetWidth != element.__resizeLast__.width || element.offsetHeight != element.__resizeLast__.height;
+    };
+    var scrollListener = function scrollListener(e) {
+        // Don't measure (which forces) reflow for scrolls that happen inside of children!
+        if (e.target.className.indexOf('contract-trigger') < 0 && e.target.className.indexOf('expand-trigger') < 0) {
+            return;
+        }
+        var element = this;
+        resetTriggers(this);
+        if (this.__resizeRAF__) {
+            hostWindow.cancelAnimationFrame(this.__resizeRAF__);
+        }
+        this.__resizeRAF__ = hostWindow.requestAnimationFrame(function() {
+            if (checkTriggers(element)) {
+                element.__resizeLast__.width = element.offsetWidth;
+                element.__resizeLast__.height = element.offsetHeight;
+                element.__resizeListeners__.forEach(function(fn) {
+                    fn.call(element, e);
+                });
+            }
+        });
+    };
+    /* Detect CSS Animations support to detect element display/re-attach */ var animation = false, keyframeprefix = '', animationstartevent = 'animationstart', domPrefixes = 'Webkit Moz O ms'.split(' '), startEvents = 'webkitAnimationStart animationstart oAnimationStart MSAnimationStart'.split(' '), pfx = '';
+    {
+        var elm = document.createElement('fakeelement');
+        if (elm.style.animationName !== undefined) {
+            animation = true;
+        }
+        if (animation === false) {
+            for(var i = 0; i < domPrefixes.length; i++){
+                if (elm.style[domPrefixes[i] + 'AnimationName'] !== undefined) {
+                    pfx = domPrefixes[i];
+                    keyframeprefix = '-' + pfx.toLowerCase() + '-';
+                    animationstartevent = startEvents[i];
+                    animation = true;
+                    break;
+                }
+            }
+        }
+    }
+    var animationName = 'resizeanim';
+    var animationKeyframes = '@' + keyframeprefix + 'keyframes ' + animationName + ' { from { opacity: 0; } to { opacity: 0; } } ';
+    var animationStyle = keyframeprefix + 'animation: 1ms ' + animationName + '; ';
+    var createStyles = function createStyles(doc, root) {
+        if (!root.getElementById('muiDetectElementResize')) {
+            //opacity:0 works around a chrome bug https://code.google.com/p/chromium/issues/detail?id=286360
+            var css = (("TURBOPACK compile-time truthy", 1) ? animationKeyframes : "TURBOPACK unreachable") + '.Mui-resizeTriggers { ' + (("TURBOPACK compile-time truthy", 1) ? animationStyle : "TURBOPACK unreachable") + 'visibility: hidden; opacity: 0; } ' + '.Mui-resizeTriggers, .Mui-resizeTriggers > div, .contract-trigger:before { content: " "; display: block; position: absolute; top: 0; left: 0; height: 100%; width: 100%; overflow: hidden; z-index: -1; } .Mui-resizeTriggers > div { background: #eee; overflow: auto; } .contract-trigger:before { width: 200%; height: 200%; }', container = root.constructor.name === 'ShadowRoot' ? root : doc.head || doc.getElementsByTagName('head')[0], style = doc.createElement('style');
+            style.id = 'muiDetectElementResize';
+            style.type = 'text/css';
+            if (nonce != null) {
+                style.setAttribute('nonce', nonce);
+            }
+            if (style.styleSheet) {
+                style.styleSheet.cssText = css;
+            } else {
+                style.appendChild(doc.createTextNode(css));
+            }
+            container.appendChild(style);
+        }
+    };
+    var addResizeListener = function addResizeListener(element, fn) {
+        if (!element.__resizeTriggers__) {
+            var doc = element.ownerDocument;
+            var elementStyle = hostWindow.getComputedStyle(element);
+            if (elementStyle && elementStyle.position == 'static') {
+                element.style.position = 'relative';
+            }
+            createStyles(doc, element.getRootNode());
+            element.__resizeLast__ = {};
+            element.__resizeListeners__ = [];
+            (element.__resizeTriggers__ = doc.createElement('div')).className = 'Mui-resizeTriggers';
+            element.__resizeTriggers__.innerHTML = '<div class="expand-trigger"><div></div></div>' + '<div class="contract-trigger"></div>';
+            element.appendChild(element.__resizeTriggers__);
+            resetTriggers(element);
+            element.addEventListener('scroll', scrollListener, true);
+            /* Listen for a css animation to detect element display/re-attach */ if (animationstartevent) {
+                element.__resizeTriggers__.__animationListener__ = function animationListener(e) {
+                    if (e.animationName == animationName) {
+                        resetTriggers(element);
+                    }
+                };
+                element.__resizeTriggers__.addEventListener(animationstartevent, element.__resizeTriggers__.__animationListener__);
+            }
+        }
+        element.__resizeListeners__.push(fn);
+    };
+    var removeResizeListener = function removeResizeListener(element, fn) {
+        element.__resizeListeners__.splice(element.__resizeListeners__.indexOf(fn), 1);
+        if (!element.__resizeListeners__.length) {
+            element.removeEventListener('scroll', scrollListener, true);
+            if (element.__resizeTriggers__.__animationListener__) {
+                element.__resizeTriggers__.removeEventListener(animationstartevent, element.__resizeTriggers__.__animationListener__);
+                element.__resizeTriggers__.__animationListener__ = null;
+            }
+            try {
+                element.__resizeTriggers__ = !element.removeChild(element.__resizeTriggers__);
+            } catch (e) {}
+        }
+    };
+    return {
+        addResizeListener,
+        removeResizeListener
+    };
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/warning.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "buildWarning",
+    ()=>buildWarning,
+    "wrapWithWarningOnCall",
+    ()=>wrapWithWarningOnCall
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/project-root/frontend/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+const buildWarning = (message, gravity = 'warning')=>{
+    let alreadyWarned = false;
+    const cleanMessage = Array.isArray(message) ? message.join('\n') : message;
+    return ()=>{
+        if (!alreadyWarned) {
+            alreadyWarned = true;
+            if (gravity === 'error') {
+                console.error(cleanMessage);
+            } else {
+                console.warn(cleanMessage);
+            }
+        }
+    };
+};
+const wrapWithWarningOnCall = (method, message)=>{
+    if ("TURBOPACK compile-time falsy", 0) //TURBOPACK unreachable
+    ;
+    const warning = buildWarning(message);
+    return (...args)=>{
+        warning();
+        return method(...args);
+    };
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/createSelector.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "createSelector",
+    ()=>createSelector,
+    "unstable_resetCreateSelectorCache",
+    ()=>unstable_resetCreateSelectorCache
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/project-root/frontend/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$node_modules$2f$reselect$2f$es$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/node_modules/reselect/es/index.js [client] (ecmascript) <locals>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$warning$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/warning.js [client] (ecmascript)");
+;
+;
+const cacheContainer = {
+    cache: null
+};
+const missingInstanceIdWarning = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$warning$2e$js__$5b$client$5d$__$28$ecmascript$29$__["buildWarning"])([
+    'MUI: A selector was called without passing the instance ID, which may impact the performance of the grid.',
+    'To fix, call it with `apiRef`, e.g. `mySelector(apiRef)`, or pass the instance ID explicitly, e.g `mySelector(state, apiRef.current.instanceId)`.'
+]);
+const createSelector = (...args)=>{
+    if (cacheContainer.cache === null) {
+        cacheContainer.cache = {};
+    }
+    const selector = (...selectorArgs)=>{
+        const [stateOrApiRef, instanceId] = selectorArgs;
+        const isApiRef = !!stateOrApiRef.current;
+        const cacheKey = isApiRef ? stateOrApiRef.current.instanceId : instanceId != null ? instanceId : 'default';
+        const state = isApiRef ? stateOrApiRef.current.state : stateOrApiRef;
+        if ("TURBOPACK compile-time truthy", 1) {
+            if (cacheKey === 'default') {
+                missingInstanceIdWarning();
+            }
+        }
+        if (cacheContainer.cache === null) {
+            cacheContainer.cache = {};
+        }
+        const { cache } = cacheContainer;
+        if (cache[cacheKey] && cache[cacheKey].get(args)) {
+            // We pass the cache key because the called selector might have as
+            // dependency another selector created with this `createSelector`.
+            return cache[cacheKey].get(args)(state, cacheKey);
+        }
+        const newSelector = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$node_modules$2f$reselect$2f$es$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["createSelector"])(...args);
+        if (!cache[cacheKey]) {
+            cache[cacheKey] = new Map();
+        }
+        cache[cacheKey].set(args, newSelector);
+        return newSelector(state, cacheKey);
+    }; // We use this property to detect if the selector was created with createSelector
+    // or it's only a simple function the receives the state and returns part of it.
+    selector.acceptsApiRef = true;
+    return selector;
+}; // eslint-disable-next-line @typescript-eslint/naming-convention
+const unstable_resetCreateSelectorCache = (cacheKey)=>{
+    if (typeof cacheKey !== 'undefined') {
+        if (cacheContainer.cache && cacheContainer.cache[cacheKey]) {
+            delete cacheContainer.cache[cacheKey];
+        }
+    } else {
+        cacheContainer.cache = null;
+    }
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/utils.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "clamp",
+    ()=>clamp,
+    "deepClone",
+    ()=>deepClone,
+    "escapeRegExp",
+    ()=>escapeRegExp,
+    "isDeepEqual",
+    ()=>isDeepEqual,
+    "isFunction",
+    ()=>isFunction,
+    "isNumber",
+    ()=>isNumber,
+    "isObject",
+    ()=>isObject,
+    "localStorageAvailable",
+    ()=>localStorageAvailable,
+    "randomNumberBetween",
+    ()=>randomNumberBetween
+]);
+function isNumber(value) {
+    return typeof value === 'number';
+}
+function isFunction(value) {
+    return typeof value === 'function';
+}
+function isObject(value) {
+    return typeof value === 'object' && value !== null;
+}
+function localStorageAvailable() {
+    try {
+        // Incognito mode might reject access to the localStorage for security reasons.
+        // window isn't defined on Node.js
+        // https://stackoverflow.com/questions/16427636/check-if-localstorage-is-available
+        const key = '__some_random_key_you_are_not_going_to_use__';
+        window.localStorage.setItem(key, key);
+        window.localStorage.removeItem(key);
+        return true;
+    } catch (err) {
+        return false;
+    }
+}
+function escapeRegExp(value) {
+    return value.replace(/[-[\]{}()*+?.,\\^$|#\s]/g, '\\$&');
+}
+const clamp = (value, min, max)=>Math.max(min, Math.min(max, value));
+function isDeepEqual(a, b) {
+    if (a === b) {
+        return true;
+    }
+    if (a && b && typeof a === 'object' && typeof b === 'object') {
+        if (a.constructor !== b.constructor) {
+            return false;
+        }
+        if (Array.isArray(a)) {
+            const length = a.length;
+            if (length !== b.length) {
+                return false;
+            }
+            for(let i = 0; i < length; i += 1){
+                if (!isDeepEqual(a[i], b[i])) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if (a instanceof Map && b instanceof Map) {
+            if (a.size !== b.size) {
+                return false;
+            }
+            const entriesA = Array.from(a.entries());
+            for(let i = 0; i < entriesA.length; i += 1){
+                if (!b.has(entriesA[i][0])) {
+                    return false;
+                }
+            }
+            for(let i = 0; i < entriesA.length; i += 1){
+                const entryA = entriesA[i];
+                if (!isDeepEqual(entryA[1], b.get(entryA[0]))) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if (a instanceof Set && b instanceof Set) {
+            if (a.size !== b.size) {
+                return false;
+            }
+            const entries = Array.from(a.entries());
+            for(let i = 0; i < entries.length; i += 1){
+                if (!b.has(entries[i][0])) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if (ArrayBuffer.isView(a) && ArrayBuffer.isView(b)) {
+            const length = a.length;
+            if (length !== b.length) {
+                return false;
+            }
+            for(let i = 0; i < length; i += 1){
+                if (a[i] !== b[i]) {
+                    return false;
+                }
+            }
+            return true;
+        }
+        if (a.constructor === RegExp) {
+            return a.source === b.source && a.flags === b.flags;
+        }
+        if (a.valueOf !== Object.prototype.valueOf) {
+            return a.valueOf() === b.valueOf();
+        }
+        if (a.toString !== Object.prototype.toString) {
+            return a.toString() === b.toString();
+        }
+        const keys = Object.keys(a);
+        const length = keys.length;
+        if (length !== Object.keys(b).length) {
+            return false;
+        }
+        for(let i = 0; i < length; i += 1){
+            if (!Object.prototype.hasOwnProperty.call(b, keys[i])) {
+                return false;
+            }
+        }
+        for(let i = 0; i < length; i += 1){
+            const key = keys[i];
+            if (!isDeepEqual(a[key], b[key])) {
+                return false;
+            }
+        }
+        return true;
+    } // true if both NaN, false otherwise
+    // eslint-disable-next-line no-self-compare
+    return a !== a && b !== b;
+} // Pseudo random number. See https://stackoverflow.com/a/47593316
+function mulberry32(a) {
+    return ()=>{
+        /* eslint-disable */ let t = a += 0x6d2b79f5;
+        t = Math.imul(t ^ t >>> 15, t | 1);
+        t ^= t + Math.imul(t ^ t >>> 7, t | 61);
+        return ((t ^ t >>> 14) >>> 0) / 4294967296;
+    /* eslint-enable */ };
+}
+function randomNumberBetween(seed, min, max) {
+    const random = mulberry32(seed);
+    return ()=>min + (max - min) * random();
+}
+function deepClone(obj) {
+    if (typeof structuredClone === 'function') {
+        return structuredClone(obj);
+    }
+    return JSON.parse(JSON.stringify(obj));
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/cleanupTracking/TimerBasedCleanupTracking.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// If no effect ran after this amount of time, we assume that the render was not committed by React
+__turbopack_context__.s([
+    "TimerBasedCleanupTracking",
+    ()=>TimerBasedCleanupTracking
+]);
+const CLEANUP_TIMER_LOOP_MILLIS = 1000;
+class TimerBasedCleanupTracking {
+    constructor(timeout = CLEANUP_TIMER_LOOP_MILLIS){
+        this.timeouts = new Map();
+        this.cleanupTimeout = CLEANUP_TIMER_LOOP_MILLIS;
+        this.cleanupTimeout = timeout;
+    }
+    register(object, unsubscribe, unregisterToken) {
+        if (!this.timeouts) {
+            this.timeouts = new Map();
+        }
+        const timeout = setTimeout(()=>{
+            if (typeof unsubscribe === 'function') {
+                unsubscribe();
+            }
+            this.timeouts.delete(unregisterToken.cleanupToken);
+        }, this.cleanupTimeout);
+        this.timeouts.set(unregisterToken.cleanupToken, timeout);
+    }
+    unregister(unregisterToken) {
+        const timeout = this.timeouts.get(unregisterToken.cleanupToken);
+        if (timeout) {
+            this.timeouts.delete(unregisterToken.cleanupToken);
+            clearTimeout(timeout);
+        }
+    }
+    reset() {
+        if (this.timeouts) {
+            this.timeouts.forEach((value, key)=>{
+                this.unregister({
+                    cleanupToken: key
+                });
+            });
+            this.timeouts = undefined;
+        }
+    }
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/cleanupTracking/FinalizationRegistryBasedCleanupTracking.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "FinalizationRegistryBasedCleanupTracking",
+    ()=>FinalizationRegistryBasedCleanupTracking
+]);
+class FinalizationRegistryBasedCleanupTracking {
+    constructor(){
+        this.registry = new FinalizationRegistry((unsubscribe)=>{
+            if (typeof unsubscribe === 'function') {
+                unsubscribe();
+            }
+        });
+    }
+    register(object, unsubscribe, unregisterToken) {
+        this.registry.register(object, unsubscribe, unregisterToken);
+    }
+    unregister(unregisterToken) {
+        this.registry.unregister(unregisterToken);
+    }
+    reset() {}
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/EventManager.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// Used https://gist.github.com/mudge/5830382 as a starting point.
+// See https://github.com/browserify/events/blob/master/events.js for
+// the Node.js (https://nodejs.org/api/events.html) polyfill used by webpack.
+__turbopack_context__.s([
+    "EventManager",
+    ()=>EventManager
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/project-root/frontend/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+class EventManager {
+    constructor(){
+        this.maxListeners = 10;
+        this.warnOnce = false;
+        this.events = {};
+    }
+    on(eventName, listener, options = {}) {
+        let collection = this.events[eventName];
+        if (!collection) {
+            collection = {
+                highPriority: new Map(),
+                regular: new Map()
+            };
+            this.events[eventName] = collection;
+        }
+        if (options.isFirst) {
+            collection.highPriority.set(listener, true);
+        } else {
+            collection.regular.set(listener, true);
+        }
+        if ("TURBOPACK compile-time truthy", 1) {
+            const collectionSize = collection.highPriority.size + collection.regular.size;
+            if (collectionSize > this.maxListeners && !this.warnOnce) {
+                this.warnOnce = true;
+                console.warn([
+                    `Possible EventEmitter memory leak detected. ${collectionSize} ${eventName} listeners added.`,
+                    `Use emitter.setMaxListeners() to increase limit.`
+                ].join('\n'));
+            }
+        }
+    }
+    removeListener(eventName, listener) {
+        if (this.events[eventName]) {
+            this.events[eventName].regular.delete(listener);
+            this.events[eventName].highPriority.delete(listener);
+        }
+    }
+    removeAllListeners() {
+        this.events = {};
+    }
+    emit(eventName, ...args) {
+        const collection = this.events[eventName];
+        if (!collection) {
+            return;
+        }
+        const highPriorityListeners = Array.from(collection.highPriority.keys());
+        const regularListeners = Array.from(collection.regular.keys());
+        for(let i = highPriorityListeners.length - 1; i >= 0; i -= 1){
+            const listener = highPriorityListeners[i];
+            if (collection.highPriority.has(listener)) {
+                listener.apply(this, args);
+            }
+        }
+        for(let i = 0; i < regularListeners.length; i += 1){
+            const listener = regularListeners[i];
+            if (collection.regular.has(listener)) {
+                listener.apply(this, args);
+            }
+        }
+    }
+    once(eventName, listener) {
+        // eslint-disable-next-line consistent-this
+        const that = this;
+        this.on(eventName, function oneTimeListener(...args) {
+            that.removeListener(eventName, oneTimeListener);
+            listener.apply(that, args);
+        });
+    }
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/keyboardUtils.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_CELL_EDIT_COMMIT_KEYS",
+    ()=>GRID_CELL_EDIT_COMMIT_KEYS,
+    "GRID_CELL_EXIT_EDIT_MODE_KEYS",
+    ()=>GRID_CELL_EXIT_EDIT_MODE_KEYS,
+    "GRID_MULTIPLE_SELECTION_KEYS",
+    ()=>GRID_MULTIPLE_SELECTION_KEYS,
+    "isArrowKeys",
+    ()=>isArrowKeys,
+    "isCellEditCommitKeys",
+    ()=>isCellEditCommitKeys,
+    "isCellEnterEditModeKeys",
+    ()=>isCellEnterEditModeKeys,
+    "isCellExitEditModeKeys",
+    ()=>isCellExitEditModeKeys,
+    "isDeleteKeys",
+    ()=>isDeleteKeys,
+    "isEnterKey",
+    ()=>isEnterKey,
+    "isEscapeKey",
+    ()=>isEscapeKey,
+    "isHideMenuKey",
+    ()=>isHideMenuKey,
+    "isHomeOrEndKeys",
+    ()=>isHomeOrEndKeys,
+    "isKeyboardEvent",
+    ()=>isKeyboardEvent,
+    "isMultipleKey",
+    ()=>isMultipleKey,
+    "isNavigationKey",
+    ()=>isNavigationKey,
+    "isPageKeys",
+    ()=>isPageKeys,
+    "isPrintableKey",
+    ()=>isPrintableKey,
+    "isSpaceKey",
+    ()=>isSpaceKey,
+    "isTabKey",
+    ()=>isTabKey
+]);
+const isEscapeKey = (key)=>key === 'Escape'; // TODO remove
+const isEnterKey = (key)=>key === 'Enter'; // TODO remove
+const isTabKey = (key)=>key === 'Tab'; // TODO remove
+const isSpaceKey = (key)=>key === ' ';
+const isArrowKeys = (key)=>key.indexOf('Arrow') === 0;
+const isHomeOrEndKeys = (key)=>key === 'Home' || key === 'End';
+const isPageKeys = (key)=>key.indexOf('Page') === 0;
+const isDeleteKeys = (key)=>key === 'Delete' || key === 'Backspace'; // Non printable keys have a name, e.g. "ArrowRight", see the whole list:
+function isPrintableKey(event) {
+    return event.key.length === 1 && event.ctrlKey === false && event.metaKey === false;
+}
+const GRID_MULTIPLE_SELECTION_KEYS = [
+    'Meta',
+    'Control',
+    'Shift'
+];
+const GRID_CELL_EXIT_EDIT_MODE_KEYS = [
+    'Enter',
+    'Escape',
+    'Tab'
+];
+const GRID_CELL_EDIT_COMMIT_KEYS = [
+    'Enter',
+    'Tab'
+];
+const isMultipleKey = (key)=>GRID_MULTIPLE_SELECTION_KEYS.indexOf(key) > -1;
+const isCellEnterEditModeKeys = (event)=>isEnterKey(event.key) || isDeleteKeys(event.key) || isPrintableKey(event);
+const isCellExitEditModeKeys = (key)=>GRID_CELL_EXIT_EDIT_MODE_KEYS.indexOf(key) > -1;
+const isCellEditCommitKeys = (key)=>GRID_CELL_EDIT_COMMIT_KEYS.indexOf(key) > -1;
+const isNavigationKey = (key)=>isHomeOrEndKeys(key) || isArrowKeys(key) || isPageKeys(key) || isSpaceKey(key);
+const isKeyboardEvent = (event)=>!!event.key;
+const isHideMenuKey = (key)=>isTabKey(key) || isEscapeKey(key);
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/exportAs.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * I have hesitated to use https://github.com/eligrey/FileSaver.js.
+ * If we get bug reports that this project solves, we should consider using it.
+ *
+ * Related resources.
+ * https://blog.logrocket.com/programmatic-file-downloads-in-the-browser-9a5186298d5c/
+ * https://github.com/mbrn/filefy/blob/ec4ed0b7415d93be7158c23029f2ea1fa0b8e2d9/src/core/BaseBuilder.ts
+ * https://unpkg.com/browse/@progress/kendo-file-saver@1.0.7/dist/es/save-as.js
+ * https://github.com/ag-grid/ag-grid/blob/9565c219b6210aa85fa833c929d0728f9d163a91/community-modules/csv-export/src/csvExport/downloader.ts
+ */ __turbopack_context__.s([
+    "exportAs",
+    ()=>exportAs
+]);
+function exportAs(blob, extension = 'csv', filename = document.title || 'untitled') {
+    const fullName = `${filename}.${extension}`; // Test download attribute first
+    // https://github.com/eligrey/FileSaver.js/issues/193
+    if ('download' in HTMLAnchorElement.prototype) {
+        // Create an object URL for the blob object
+        const url = URL.createObjectURL(blob); // Create a new anchor element
+        const a = document.createElement('a');
+        a.href = url;
+        a.download = fullName; // Programmatically trigger a click on the anchor element
+        // Useful if you want the download to happen automatically
+        // Without attaching the anchor element to the DOM
+        a.click(); // https://github.com/eligrey/FileSaver.js/issues/205
+        setTimeout(()=>{
+            URL.revokeObjectURL(url);
+        });
+        return;
+    }
+    throw new Error('MUI: exportAs not supported');
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/domUtils.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "findParentElementFromClassName",
+    ()=>findParentElementFromClassName,
+    "getGridCellElement",
+    ()=>getGridCellElement,
+    "getGridColumnHeaderElement",
+    ()=>getGridColumnHeaderElement,
+    "getGridRowElement",
+    ()=>getGridRowElement,
+    "getRowEl",
+    ()=>getRowEl,
+    "isGridCellRoot",
+    ()=>isGridCellRoot,
+    "isGridHeaderCellRoot",
+    ()=>isGridHeaderCellRoot,
+    "isOverflown",
+    ()=>isOverflown
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$gridClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/gridClasses.js [client] (ecmascript)");
+;
+function isOverflown(element) {
+    return element.scrollHeight > element.clientHeight || element.scrollWidth > element.clientWidth;
+}
+function findParentElementFromClassName(elem, className) {
+    return elem.closest(`.${className}`);
+}
+function getRowEl(cell) {
+    if (!cell) {
+        return null;
+    }
+    return findParentElementFromClassName(cell, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$gridClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridClasses"].row);
+} // TODO remove
+function isGridCellRoot(elem) {
+    return elem != null && elem.classList.contains(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$gridClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridClasses"].cell);
+}
+function isGridHeaderCellRoot(elem) {
+    return elem != null && elem.classList.contains(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$gridClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridClasses"].columnHeader);
+}
+function escapeOperandAttributeSelector(operand) {
+    return operand.replace(/["\\]/g, '\\$&');
+}
+function getGridColumnHeaderElement(root, field) {
+    return root.querySelector(`[role="columnheader"][data-field="${escapeOperandAttributeSelector(field)}"]`);
+}
+function getGridRowElementSelector(id) {
+    return `.${__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$gridClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridClasses"].row}[data-id="${escapeOperandAttributeSelector(String(id))}"]`;
+}
+function getGridRowElement(root, id) {
+    return root.querySelector(getGridRowElementSelector(id));
+}
+function getGridCellElement(root, { id, field }) {
+    const rowSelector = getGridRowElementSelector(id);
+    const cellSelector = `.${__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$gridClasses$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridClasses"].cell}[data-field="${escapeOperandAttributeSelector(field)}"]`;
+    const selector = `${rowSelector} ${cellSelector}`;
+    return root.querySelector(selector);
+}
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringOperators.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getGridStringOperators",
+    ()=>getGridStringOperators,
+    "getGridStringQuickFilterFn",
+    ()=>getGridStringQuickFilterFn
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputValue.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/utils.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputMultipleValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputMultipleValue.js [client] (ecmascript)");
+;
+;
+;
+const getGridStringQuickFilterFn = (value)=>{
+    if (!value) {
+        return null;
+    }
+    const filterRegex = new RegExp((0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["escapeRegExp"])(value), 'i');
+    return ({ value: columnValue })=>{
+        return columnValue != null ? filterRegex.test(columnValue.toString()) : false;
+    };
+};
+const getGridStringOperators = (disableTrim = false)=>[
+        {
+            value: 'contains',
+            getApplyFilterFn: (filterItem)=>{
+                if (!filterItem.value) {
+                    return null;
+                }
+                const filterItemValue = disableTrim ? filterItem.value : filterItem.value.trim();
+                const filterRegex = new RegExp((0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["escapeRegExp"])(filterItemValue), 'i');
+                return ({ value })=>{
+                    return value != null ? filterRegex.test(value.toString()) : false;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"]
+        },
+        {
+            value: 'equals',
+            getApplyFilterFn: (filterItem)=>{
+                if (!filterItem.value) {
+                    return null;
+                }
+                const filterItemValue = disableTrim ? filterItem.value : filterItem.value.trim();
+                const collator = new Intl.Collator(undefined, {
+                    sensitivity: 'base',
+                    usage: 'search'
+                });
+                return ({ value })=>{
+                    return value != null ? collator.compare(filterItemValue, value.toString()) === 0 : false;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"]
+        },
+        {
+            value: 'startsWith',
+            getApplyFilterFn: (filterItem)=>{
+                if (!filterItem.value) {
+                    return null;
+                }
+                const filterItemValue = disableTrim ? filterItem.value : filterItem.value.trim();
+                const filterRegex = new RegExp(`^${(0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["escapeRegExp"])(filterItemValue)}.*$`, 'i');
+                return ({ value })=>{
+                    return value != null ? filterRegex.test(value.toString()) : false;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"]
+        },
+        {
+            value: 'endsWith',
+            getApplyFilterFn: (filterItem)=>{
+                if (!filterItem.value) {
+                    return null;
+                }
+                const filterItemValue = disableTrim ? filterItem.value : filterItem.value.trim();
+                const filterRegex = new RegExp(`.*${(0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["escapeRegExp"])(filterItemValue)}$`, 'i');
+                return ({ value })=>{
+                    return value != null ? filterRegex.test(value.toString()) : false;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"]
+        },
+        {
+            value: 'isEmpty',
+            getApplyFilterFn: ()=>{
+                return ({ value })=>{
+                    return value === '' || value == null;
+                };
+            },
+            requiresFilterValue: false
+        },
+        {
+            value: 'isNotEmpty',
+            getApplyFilterFn: ()=>{
+                return ({ value })=>{
+                    return value !== '' && value != null;
+                };
+            },
+            requiresFilterValue: false
+        },
+        {
+            value: 'isAnyOf',
+            getApplyFilterFn: (filterItem)=>{
+                if (!Array.isArray(filterItem.value) || filterItem.value.length === 0) {
+                    return null;
+                }
+                const filterItemValue = disableTrim ? filterItem.value : filterItem.value.map((val)=>val.trim());
+                const collator = new Intl.Collator(undefined, {
+                    sensitivity: 'base',
+                    usage: 'search'
+                });
+                return ({ value })=>value != null ? filterItemValue.some((filterValue)=>{
+                        return collator.compare(filterValue, value.toString() || '') === 0;
+                    }) : false;
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputMultipleValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputMultipleValue"]
+        }
+    ];
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_STRING_COL_DEF",
+    ()=>GRID_STRING_COL_DEF
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditInputCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridEditInputCell.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/sorting/gridSortingUtils.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringOperators.js [client] (ecmascript)");
+;
+;
+;
+const GRID_STRING_COL_DEF = {
+    width: 100,
+    minWidth: 50,
+    maxWidth: Infinity,
+    hide: false,
+    hideable: true,
+    sortable: true,
+    resizable: true,
+    filterable: true,
+    groupable: true,
+    pinnable: true,
+    // @ts-ignore
+    aggregable: true,
+    editable: false,
+    sortComparator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridStringOrNumberComparator"],
+    type: 'string',
+    align: 'left',
+    filterOperators: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridStringOperators"])(),
+    renderEditCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditInputCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderEditInputCell"],
+    getApplyQuickFilterFn: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridStringQuickFilterFn"]
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridNumericOperators.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getGridNumericColumnOperators",
+    ()=>getGridNumericColumnOperators,
+    "getGridNumericOperators",
+    ()=>getGridNumericOperators,
+    "getGridNumericQuickFilterFn",
+    ()=>getGridNumericQuickFilterFn
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputValue.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputMultipleValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputMultipleValue.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$warning$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/warning.js [client] (ecmascript)");
+;
+;
+;
+const parseNumericValue = (value)=>{
+    if (value == null) {
+        return null;
+    }
+    return Number(value);
+};
+const getGridNumericQuickFilterFn = (value)=>{
+    if (value == null || Number.isNaN(value) || value === '') {
+        return null;
+    }
+    return ({ value: columnValue })=>{
+        return parseNumericValue(columnValue) === parseNumericValue(value);
+    };
+};
+const getGridNumericOperators = ()=>[
+        {
+            label: '=',
+            value: '=',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || Number.isNaN(filterItem.value)) {
+                    return null;
+                }
+                return ({ value })=>{
+                    return parseNumericValue(value) === filterItem.value;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        },
+        {
+            label: '!=',
+            value: '!=',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || Number.isNaN(filterItem.value)) {
+                    return null;
+                }
+                return ({ value })=>{
+                    return parseNumericValue(value) !== filterItem.value;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        },
+        {
+            label: '>',
+            value: '>',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || Number.isNaN(filterItem.value)) {
+                    return null;
+                }
+                return ({ value })=>{
+                    if (value == null) {
+                        return false;
+                    }
+                    return parseNumericValue(value) > filterItem.value;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        },
+        {
+            label: '>=',
+            value: '>=',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || Number.isNaN(filterItem.value)) {
+                    return null;
+                }
+                return ({ value })=>{
+                    if (value == null) {
+                        return false;
+                    }
+                    return parseNumericValue(value) >= filterItem.value;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        },
+        {
+            label: '<',
+            value: '<',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || Number.isNaN(filterItem.value)) {
+                    return null;
+                }
+                return ({ value })=>{
+                    if (value == null) {
+                        return false;
+                    }
+                    return parseNumericValue(value) < filterItem.value;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        },
+        {
+            label: '<=',
+            value: '<=',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || Number.isNaN(filterItem.value)) {
+                    return null;
+                }
+                return ({ value })=>{
+                    if (value == null) {
+                        return false;
+                    }
+                    return parseNumericValue(value) <= filterItem.value;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        },
+        {
+            value: 'isEmpty',
+            getApplyFilterFn: ()=>{
+                return ({ value })=>{
+                    return value == null;
+                };
+            },
+            requiresFilterValue: false
+        },
+        {
+            value: 'isNotEmpty',
+            getApplyFilterFn: ()=>{
+                return ({ value })=>{
+                    return value != null;
+                };
+            },
+            requiresFilterValue: false
+        },
+        {
+            value: 'isAnyOf',
+            getApplyFilterFn: (filterItem)=>{
+                if (!Array.isArray(filterItem.value) || filterItem.value.length === 0) {
+                    return null;
+                }
+                return ({ value })=>{
+                    return value != null && filterItem.value.includes(Number(value));
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputMultipleValue$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputMultipleValue"],
+            InputComponentProps: {
+                type: 'number'
+            }
+        }
+    ];
+const getGridNumericColumnOperators = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$warning$2e$js__$5b$client$5d$__$28$ecmascript$29$__["wrapWithWarningOnCall"])(getGridNumericOperators, [
+    'MUI: The method getGridNumericColumnOperators is deprecated and will be removed in the next major version.',
+    'Use getGridNumericOperators instead.'
+]);
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridNumericColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_NUMERIC_COL_DEF",
+    ()=>GRID_NUMERIC_COL_DEF
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/sorting/gridSortingUtils.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/utils/utils.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridNumericOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridNumericOperators.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+const GRID_NUMERIC_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"], {
+    type: 'number',
+    align: 'right',
+    headerAlign: 'right',
+    sortComparator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridNumberComparator"],
+    valueParser: (value)=>value === '' ? null : Number(value),
+    valueFormatter: ({ value })=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$utils$2f$utils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["isNumber"])(value) ? value.toLocaleString() : value || '',
+    filterOperators: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridNumericOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridNumericOperators"])(),
+    getApplyQuickFilterFn: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridNumericOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridNumericQuickFilterFn"]
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridDateOperators.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getGridDateOperators",
+    ()=>getGridDateOperators
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputDate.js [client] (ecmascript)");
+;
+const dateRegex = /(\d+)-(\d+)-(\d+)/;
+const dateTimeRegex = /(\d+)-(\d+)-(\d+)T(\d+):(\d+)/;
+function buildApplyFilterFn(filterItem, compareFn, showTime, keepHours) {
+    if (!filterItem.value) {
+        return null;
+    }
+    const [year, month, day, hour, minute] = filterItem.value.match(showTime ? dateTimeRegex : dateRegex).slice(1).map(Number);
+    const time = new Date(year, month - 1, day, hour || 0, minute || 0).getTime();
+    return ({ value })=>{
+        if (!value) {
+            return false;
+        }
+        const valueAsDate = value instanceof Date ? value : new Date(value.toString());
+        if (keepHours) {
+            return compareFn(valueAsDate.getTime(), time);
+        } // Make a copy of the date to not reset the hours in the original object
+        const dateCopy = value instanceof Date ? new Date(valueAsDate) : valueAsDate;
+        const timeToCompare = dateCopy.setHours(showTime ? valueAsDate.getHours() : 0, showTime ? valueAsDate.getMinutes() : 0, 0, 0);
+        return compareFn(timeToCompare, time);
+    };
+}
+const getGridDateOperators = (showTime)=>[
+        {
+            value: 'is',
+            getApplyFilterFn: (filterItem)=>{
+                return buildApplyFilterFn(filterItem, (value1, value2)=>value1 === value2, showTime);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputDate"],
+            InputComponentProps: {
+                type: showTime ? 'datetime-local' : 'date'
+            }
+        },
+        {
+            value: 'not',
+            getApplyFilterFn: (filterItem)=>{
+                return buildApplyFilterFn(filterItem, (value1, value2)=>value1 !== value2, showTime);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputDate"],
+            InputComponentProps: {
+                type: showTime ? 'datetime-local' : 'date'
+            }
+        },
+        {
+            value: 'after',
+            getApplyFilterFn: (filterItem)=>{
+                return buildApplyFilterFn(filterItem, (value1, value2)=>value1 > value2, showTime);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputDate"],
+            InputComponentProps: {
+                type: showTime ? 'datetime-local' : 'date'
+            }
+        },
+        {
+            value: 'onOrAfter',
+            getApplyFilterFn: (filterItem)=>{
+                return buildApplyFilterFn(filterItem, (value1, value2)=>value1 >= value2, showTime);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputDate"],
+            InputComponentProps: {
+                type: showTime ? 'datetime-local' : 'date'
+            }
+        },
+        {
+            value: 'before',
+            getApplyFilterFn: (filterItem)=>{
+                return buildApplyFilterFn(filterItem, (value1, value2)=>value1 < value2, showTime, !showTime);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputDate"],
+            InputComponentProps: {
+                type: showTime ? 'datetime-local' : 'date'
+            }
+        },
+        {
+            value: 'onOrBefore',
+            getApplyFilterFn: (filterItem)=>{
+                return buildApplyFilterFn(filterItem, (value1, value2)=>value1 <= value2, showTime);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputDate$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputDate"],
+            InputComponentProps: {
+                type: showTime ? 'datetime-local' : 'date'
+            }
+        },
+        {
+            value: 'isEmpty',
+            getApplyFilterFn: ()=>{
+                return ({ value })=>{
+                    return value == null;
+                };
+            },
+            requiresFilterValue: false
+        },
+        {
+            value: 'isNotEmpty',
+            getApplyFilterFn: ()=>{
+                return ({ value })=>{
+                    return value != null;
+                };
+            },
+            requiresFilterValue: false
+        }
+    ];
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridDateColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_DATETIME_COL_DEF",
+    ()=>GRID_DATETIME_COL_DEF,
+    "GRID_DATE_COL_DEF",
+    ()=>GRID_DATE_COL_DEF,
+    "gridDateFormatter",
+    ()=>gridDateFormatter,
+    "gridDateTimeFormatter",
+    ()=>gridDateTimeFormatter
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/sorting/gridSortingUtils.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridDateOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridDateOperators.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditDateCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridEditDateCell.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+function gridDateFormatter({ value }) {
+    if (value instanceof Date) {
+        return value.toLocaleDateString();
+    }
+    return value != null ? value : '';
+}
+function gridDateTimeFormatter({ value }) {
+    if (value instanceof Date) {
+        return value.toLocaleString();
+    }
+    return value != null ? value : '';
+}
+const GRID_DATE_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"], {
+    type: 'date',
+    sortComparator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridDateComparator"],
+    valueFormatter: gridDateFormatter,
+    filterOperators: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridDateOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridDateOperators"])(),
+    renderEditCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditDateCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderEditDateCell"],
+    getApplyQuickFilterFn: undefined
+});
+const GRID_DATETIME_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"], {
+    type: 'dateTime',
+    sortComparator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridDateComparator"],
+    valueFormatter: gridDateTimeFormatter,
+    filterOperators: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridDateOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridDateOperators"])(true),
+    renderEditCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditDateCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderEditDateCell"],
+    getApplyQuickFilterFn: undefined
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridBooleanOperators.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getGridBooleanOperators",
+    ()=>getGridBooleanOperators
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputBoolean$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputBoolean.js [client] (ecmascript)");
+;
+const getGridBooleanOperators = ()=>[
+        {
+            value: 'is',
+            getApplyFilterFn: (filterItem)=>{
+                if (!filterItem.value) {
+                    return null;
+                }
+                const valueAsBoolean = filterItem.value === 'true';
+                return ({ value })=>{
+                    return Boolean(value) === valueAsBoolean;
+                };
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputBoolean$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputBoolean"]
+        }
+    ];
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridBooleanColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_BOOLEAN_COL_DEF",
+    ()=>GRID_BOOLEAN_COL_DEF
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridBooleanCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridBooleanCell.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditBooleanCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridEditBooleanCell.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/sorting/gridSortingUtils.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridBooleanOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridBooleanOperators.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+function gridBooleanFormatter({ value, api }) {
+    return value ? api.getLocaleText('booleanCellTrueLabel') : api.getLocaleText('booleanCellFalseLabel');
+}
+const GRID_BOOLEAN_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"], {
+    type: 'boolean',
+    align: 'center',
+    headerAlign: 'center',
+    renderCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridBooleanCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderBooleanCell"],
+    renderEditCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditBooleanCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderEditBooleanCell"],
+    sortComparator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$gridSortingUtils$2e$js__$5b$client$5d$__$28$ecmascript$29$__["gridNumberComparator"],
+    valueFormatter: gridBooleanFormatter,
+    filterOperators: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridBooleanOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridBooleanOperators"])(),
+    getApplyQuickFilterFn: undefined,
+    // @ts-ignore
+    aggregable: false
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridSingleSelectOperators.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "getGridSingleSelectOperators",
+    ()=>getGridSingleSelectOperators,
+    "getGridSingleSelectQuickFilterFn",
+    ()=>getGridSingleSelectQuickFilterFn
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputSingleSelect$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputSingleSelect.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputMultipleSingleSelect$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/panel/filterPanel/GridFilterInputMultipleSingleSelect.js [client] (ecmascript)");
+;
+;
+const parseObjectValue = (value)=>{
+    if (value == null || typeof value !== 'object') {
+        return value;
+    }
+    return value.value;
+};
+const getGridSingleSelectQuickFilterFn = (value, column, apiRef)=>{
+    if (!value) {
+        return null;
+    }
+    const { valueOptions, valueFormatter, field } = column;
+    const potentialValues = [
+        parseObjectValue(value).toString()
+    ];
+    const iterableColumnValues = typeof valueOptions === 'function' ? valueOptions({
+        field
+    }) : valueOptions || [];
+    if (iterableColumnValues) {
+        iterableColumnValues.forEach((option)=>{
+            // for each valueOption, check if the formatted value
+            let optionValue;
+            let optionLabel;
+            if (typeof option === 'object') {
+                optionValue = option.value;
+                optionLabel = option.label;
+            } else {
+                optionValue = option;
+                if (valueFormatter) {
+                    optionLabel = valueFormatter({
+                        value: option,
+                        field,
+                        api: apiRef.current
+                    });
+                } else {
+                    optionLabel = option;
+                }
+            }
+            if (optionLabel.slice(0, value.length).toLowerCase() === value.toLowerCase()) {
+                if (!potentialValues.includes(optionValue)) {
+                    potentialValues.push(optionValue.toString());
+                }
+            }
+        });
+    }
+    return ({ value: columnValue })=>{
+        return columnValue != null ? potentialValues.includes(parseObjectValue(columnValue).toString()) : false;
+    };
+};
+const getGridSingleSelectOperators = ()=>[
+        {
+            value: 'is',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || filterItem.value === '') {
+                    return null;
+                }
+                return ({ value })=>parseObjectValue(value) === parseObjectValue(filterItem.value);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputSingleSelect$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputSingleSelect"]
+        },
+        {
+            value: 'not',
+            getApplyFilterFn: (filterItem)=>{
+                if (filterItem.value == null || filterItem.value === '') {
+                    return null;
+                }
+                return ({ value })=>parseObjectValue(value) !== parseObjectValue(filterItem.value);
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputSingleSelect$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputSingleSelect"]
+        },
+        {
+            value: 'isAnyOf',
+            getApplyFilterFn: (filterItem)=>{
+                if (!Array.isArray(filterItem.value) || filterItem.value.length === 0) {
+                    return null;
+                }
+                const filterItemValues = filterItem.value.map(parseObjectValue);
+                return ({ value })=>filterItemValues.includes(parseObjectValue(value));
+            },
+            InputComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$panel$2f$filterPanel$2f$GridFilterInputMultipleSingleSelect$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFilterInputMultipleSingleSelect"]
+        }
+    ];
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridSingleSelectColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_SINGLE_SELECT_COL_DEF",
+    ()=>GRID_SINGLE_SELECT_COL_DEF
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditSingleSelectCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridEditSingleSelectCell.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridSingleSelectOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridSingleSelectOperators.js [client] (ecmascript)");
+;
+;
+;
+;
+const GRID_SINGLE_SELECT_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"], {
+    type: 'singleSelect',
+    renderEditCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridEditSingleSelectCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderEditSingleSelectCell"],
+    filterOperators: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridSingleSelectOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridSingleSelectOperators"])(),
+    getApplyQuickFilterFn: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridSingleSelectOperators$2e$js__$5b$client$5d$__$28$ecmascript$29$__["getGridSingleSelectQuickFilterFn"]
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridActionsColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_ACTIONS_COLUMN_TYPE",
+    ()=>GRID_ACTIONS_COLUMN_TYPE,
+    "GRID_ACTIONS_COL_DEF",
+    ()=>GRID_ACTIONS_COL_DEF
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridActionsCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/cell/GridActionsCell.js [client] (ecmascript)");
+;
+;
+;
+const GRID_ACTIONS_COLUMN_TYPE = 'actions';
+const GRID_ACTIONS_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"], {
+    sortable: false,
+    filterable: false,
+    // @ts-ignore
+    aggregable: false,
+    width: 100,
+    align: 'center',
+    headerAlign: 'center',
+    headerName: '',
+    disableColumnMenu: true,
+    disableExport: true,
+    renderCell: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$cell$2f$GridActionsCell$2e$js__$5b$client$5d$__$28$ecmascript$29$__["renderActionsCell"],
+    getApplyQuickFilterFn: undefined
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridDefaultColumnTypes.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "DEFAULT_GRID_COL_TYPE_KEY",
+    ()=>DEFAULT_GRID_COL_TYPE_KEY,
+    "getGridDefaultColumnTypes",
+    ()=>getGridDefaultColumnTypes
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridStringColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridNumericColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridNumericColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridDateColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridDateColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridBooleanColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridBooleanColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridSingleSelectColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridSingleSelectColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridActionsColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridActionsColDef.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+const DEFAULT_GRID_COL_TYPE_KEY = '__default__';
+const getGridDefaultColumnTypes = ()=>{
+    const nativeColumnTypes = {
+        string: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"],
+        number: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridNumericColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_NUMERIC_COL_DEF"],
+        date: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridDateColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_DATE_COL_DEF"],
+        dateTime: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridDateColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_DATETIME_COL_DEF"],
+        boolean: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridBooleanColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_BOOLEAN_COL_DEF"],
+        singleSelect: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridSingleSelectColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_SINGLE_SELECT_COL_DEF"],
+        [__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridActionsColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_ACTIONS_COLUMN_TYPE"]]: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridActionsColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_ACTIONS_COL_DEF"],
+        [DEFAULT_GRID_COL_TYPE_KEY]: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridStringColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_STRING_COL_DEF"]
+    };
+    return nativeColumnTypes;
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridCheckboxSelectionColDef.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GRID_CHECKBOX_SELECTION_COL_DEF",
+    ()=>GRID_CHECKBOX_SELECTION_COL_DEF,
+    "GRID_CHECKBOX_SELECTION_FIELD",
+    ()=>GRID_CHECKBOX_SELECTION_FIELD
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnSelection$2f$GridCellCheckboxRenderer$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/columnSelection/GridCellCheckboxRenderer.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnSelection$2f$GridHeaderCheckbox$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/columnSelection/GridHeaderCheckbox.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$gridSelectionSelector$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/selection/gridSelectionSelector.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridBooleanColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/colDef/gridBooleanColDef.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/jsx-runtime.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+const GRID_CHECKBOX_SELECTION_FIELD = '__check__';
+const GRID_CHECKBOX_SELECTION_COL_DEF = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$colDef$2f$gridBooleanColDef$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_BOOLEAN_COL_DEF"], {
+    field: GRID_CHECKBOX_SELECTION_FIELD,
+    type: 'checkboxSelection',
+    width: 50,
+    resizable: false,
+    sortable: false,
+    filterable: false,
+    // @ts-ignore
+    aggregable: false,
+    disableColumnMenu: true,
+    disableReorder: true,
+    disableExport: true,
+    getApplyQuickFilterFn: undefined,
+    valueGetter: (params)=>{
+        const selectionLookup = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$gridSelectionSelector$2e$js__$5b$client$5d$__$28$ecmascript$29$__["selectedIdsLookupSelector"])(params.api.state, params.api.instanceId);
+        return selectionLookup[params.id] !== undefined;
+    },
+    renderHeader: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnSelection$2f$GridHeaderCheckbox$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridHeaderCheckbox"], (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, params)),
+    renderCell: (params)=>/*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$columnSelection$2f$GridCellCheckboxRenderer$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridCellCheckboxRenderer"], (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, params))
+});
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridEditRowModel.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// TODO v6: rename to GridEditingState
+__turbopack_context__.s([
+    "GridCellModes",
+    ()=>GridCellModes,
+    "GridEditModes",
+    ()=>GridEditModes,
+    "GridRowModes",
+    ()=>GridRowModes
+]);
+var GridEditModes;
+(function(GridEditModes) {
+    GridEditModes["Cell"] = "cell";
+    GridEditModes["Row"] = "row";
+})(GridEditModes || (GridEditModes = {}));
+var GridCellModes;
+(function(GridCellModes) {
+    GridCellModes["Edit"] = "edit";
+    GridCellModes["View"] = "view";
+})(GridCellModes || (GridCellModes = {}));
+var GridRowModes;
+(function(GridRowModes) {
+    GridRowModes["Edit"] = "edit";
+    GridRowModes["View"] = "view";
+})(GridRowModes || (GridRowModes = {}));
+;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridDensity.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Available densities.
+ */ /**
+ * Density enum.
+ */ __turbopack_context__.s([
+    "GridDensityTypes",
+    ()=>GridDensityTypes
+]);
+var GridDensityTypes;
+(function(GridDensityTypes) {
+    GridDensityTypes["Compact"] = "compact";
+    GridDensityTypes["Standard"] = "standard";
+    GridDensityTypes["Comfortable"] = "comfortable";
+})(GridDensityTypes || (GridDensityTypes = {}));
+;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridColumnGrouping.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "isLeaf",
+    ()=>isLeaf
+]);
+function isLeaf(node) {
+    return node.field !== undefined;
+} /**
+ * A function used to process headerClassName params.
+ */ 
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridFeatureMode.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "GridFeatureModeConstant",
+    ()=>GridFeatureModeConstant
+]);
+const GridFeatureModeConstant = {
+    client: 'client',
+    server: 'server'
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridFilterItem.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Filter item definition interface.
+ */ __turbopack_context__.s([
+    "GridLinkOperator",
+    ()=>GridLinkOperator
+]);
+var GridLinkOperator;
+(function(GridLinkOperator) {
+    GridLinkOperator["And"] = "and";
+    GridLinkOperator["Or"] = "or";
+})(GridLinkOperator || (GridLinkOperator = {}));
+;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/params/gridEditCellParams.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+// TODO v6 - remove
+/**
+ * Params passed to `apiRef.current.setEditCellValue`.
+ */ // TODO v6 - remove
+// TODO v6 - remove
+__turbopack_context__.s([
+    "GridCellEditStartReasons",
+    ()=>GridCellEditStartReasons,
+    "GridCellEditStopReasons",
+    ()=>GridCellEditStopReasons
+]);
+var GridCellEditStartReasons;
+/**
+ * Params passed to the `cellEditStart` event.
+ */ (function(GridCellEditStartReasons) {
+    GridCellEditStartReasons["enterKeyDown"] = "enterKeyDown";
+    GridCellEditStartReasons["cellDoubleClick"] = "cellDoubleClick";
+    GridCellEditStartReasons["printableKeyDown"] = "printableKeyDown";
+    GridCellEditStartReasons["deleteKeyDown"] = "deleteKeyDown";
+})(GridCellEditStartReasons || (GridCellEditStartReasons = {}));
+var GridCellEditStopReasons;
+/**
+ * Params passed to the `cellEditStop event.
+ */ (function(GridCellEditStopReasons) {
+    GridCellEditStopReasons["cellFocusOut"] = "cellFocusOut";
+    GridCellEditStopReasons["escapeKeyDown"] = "escapeKeyDown";
+    GridCellEditStopReasons["enterKeyDown"] = "enterKeyDown";
+    GridCellEditStopReasons["tabKeyDown"] = "tabKeyDown";
+    GridCellEditStopReasons["shiftTabKeyDown"] = "shiftTabKeyDown";
+})(GridCellEditStopReasons || (GridCellEditStopReasons = {}));
+;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/params/gridRowParams.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+/**
+ * Object passed as parameter in the row callbacks.
+ */ /**
+ * Object passed as parameter in the row `getRowClassName` callback prop.
+ */ /**
+ * Object passed as parameter in the row `getRowHeight` callback prop.
+ */ /**
+ * The getRowHeight return value.
+ */ __turbopack_context__.s([
+    "GridRowEditStartReasons",
+    ()=>GridRowEditStartReasons,
+    "GridRowEditStopReasons",
+    ()=>GridRowEditStopReasons
+]);
+var GridRowEditStartReasons;
+/**
+ * Params passed to the `rowEditStart` event.
+ */ (function(GridRowEditStartReasons) {
+    GridRowEditStartReasons["enterKeyDown"] = "enterKeyDown";
+    GridRowEditStartReasons["cellDoubleClick"] = "cellDoubleClick";
+    GridRowEditStartReasons["printableKeyDown"] = "printableKeyDown";
+    GridRowEditStartReasons["deleteKeyDown"] = "deleteKeyDown";
+})(GridRowEditStartReasons || (GridRowEditStartReasons = {}));
+var GridRowEditStopReasons;
+(function(GridRowEditStopReasons) {
+    GridRowEditStopReasons["rowFocusOut"] = "rowFocusOut";
+    GridRowEditStopReasons["escapeKeyDown"] = "escapeKeyDown";
+    GridRowEditStopReasons["enterKeyDown"] = "enterKeyDown";
+    GridRowEditStopReasons["tabKeyDown"] = "tabKeyDown";
+    GridRowEditStopReasons["shiftTabKeyDown"] = "shiftTabKeyDown";
+})(GridRowEditStopReasons || (GridRowEditStopReasons = {}));
+;
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/DataGrid/useDataGridComponent.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "useDataGridComponent",
+    ()=>useDataGridComponent
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$core$2f$useGridInitialization$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/core/useGridInitialization.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/utils/useGridInitializeState.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$clipboard$2f$useGridClipboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/clipboard/useGridClipboard.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnMenu$2f$useGridColumnMenu$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/columnMenu/useGridColumnMenu.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columns$2f$useGridColumns$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/columns/useGridColumns.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$density$2f$useGridDensity$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/density/useGridDensity.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$export$2f$useGridCsvExport$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/export/useGridCsvExport.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$export$2f$useGridPrintExport$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/export/useGridPrintExport.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$filter$2f$useGridFilter$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/filter/useGridFilter.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$focus$2f$useGridFocus$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/focus/useGridFocus.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$keyboardNavigation$2f$useGridKeyboardNavigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/keyboardNavigation/useGridKeyboardNavigation.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$pagination$2f$useGridPagination$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/pagination/useGridPagination.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$preferencesPanel$2f$useGridPreferencesPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/preferencesPanel/useGridPreferencesPanel.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$editRows$2f$useGridEditing$2e$old$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/editRows/useGridEditing.old.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$editRows$2f$useGridEditing$2e$new$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/editRows/useGridEditing.new.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRows$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/rows/useGridRows.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRowsPreProcessors$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/rows/useGridRowsPreProcessors.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridParamsApi$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/rows/useGridParamsApi.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$useGridSelection$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/selection/useGridSelection.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$useGridSelectionPreProcessors$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/selection/useGridSelectionPreProcessors.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$useGridSorting$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/sorting/useGridSorting.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$scroll$2f$useGridScroll$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/scroll/useGridScroll.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$events$2f$useGridEvents$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/events/useGridEvents.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$dimensions$2f$useGridDimensions$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/dimensions/useGridDimensions.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRowsMeta$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/rows/useGridRowsMeta.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$statePersistence$2f$useGridStatePersistence$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/statePersistence/useGridStatePersistence.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columns$2f$useGridColumnSpanning$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/columns/useGridColumnSpanning.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnGrouping$2f$useGridColumnGrouping$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/columnGrouping/useGridColumnGrouping.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnGrouping$2f$useGridColumnGroupingPreProcessors$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/hooks/features/columnGrouping/useGridColumnGroupingPreProcessors.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const useDataGridComponent = (props)=>{
+    var _props$experimentalFe, _props$experimentalFe2;
+    const apiRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$core$2f$useGridInitialization$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitialization"])(undefined, props);
+    /**
+   * Register all pre-processors called during state initialization here.
+   */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnGrouping$2f$useGridColumnGroupingPreProcessors$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridColumnGroupingPreProcessors"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$useGridSelectionPreProcessors$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridSelectionPreProcessors"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRowsPreProcessors$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridRowsPreProcessors"])(apiRef);
+    /**
+   * Register all state initializers here.
+   */ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$useGridSelection$2e$js__$5b$client$5d$__$28$ecmascript$29$__["selectionStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columns$2f$useGridColumns$2e$js__$5b$client$5d$__$28$ecmascript$29$__["columnsStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnGrouping$2f$useGridColumnGrouping$2e$js__$5b$client$5d$__$28$ecmascript$29$__["columnGroupsStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRows$2e$js__$5b$client$5d$__$28$ecmascript$29$__["rowsStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])((_props$experimentalFe = props.experimentalFeatures) != null && _props$experimentalFe.newEditingApi ? __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$editRows$2f$useGridEditing$2e$new$2e$js__$5b$client$5d$__$28$ecmascript$29$__["editingStateInitializer"] : __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$editRows$2f$useGridEditing$2e$old$2e$js__$5b$client$5d$__$28$ecmascript$29$__["editingStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$focus$2f$useGridFocus$2e$js__$5b$client$5d$__$28$ecmascript$29$__["focusStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$useGridSorting$2e$js__$5b$client$5d$__$28$ecmascript$29$__["sortingStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$preferencesPanel$2f$useGridPreferencesPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["preferencePanelStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$filter$2f$useGridFilter$2e$js__$5b$client$5d$__$28$ecmascript$29$__["filterStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$density$2f$useGridDensity$2e$js__$5b$client$5d$__$28$ecmascript$29$__["densityStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$pagination$2f$useGridPagination$2e$js__$5b$client$5d$__$28$ecmascript$29$__["paginationStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRowsMeta$2e$js__$5b$client$5d$__$28$ecmascript$29$__["rowsMetaStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$utils$2f$useGridInitializeState$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridInitializeState"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnMenu$2f$useGridColumnMenu$2e$js__$5b$client$5d$__$28$ecmascript$29$__["columnMenuStateInitializer"], apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$keyboardNavigation$2f$useGridKeyboardNavigation$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridKeyboardNavigation"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$selection$2f$useGridSelection$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridSelection"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columns$2f$useGridColumns$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridColumns"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRows$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridRows"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridParamsApi$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridParamsApi"])(apiRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columns$2f$useGridColumnSpanning$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridColumnSpanning"])(apiRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnGrouping$2f$useGridColumnGrouping$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridColumnGrouping"])(apiRef, props);
+    const useGridEditing = (_props$experimentalFe2 = props.experimentalFeatures) != null && _props$experimentalFe2.newEditingApi ? __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$editRows$2f$useGridEditing$2e$new$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridEditing"] : __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$editRows$2f$useGridEditing$2e$old$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridEditing"];
+    useGridEditing(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$focus$2f$useGridFocus$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridFocus"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$preferencesPanel$2f$useGridPreferencesPanel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridPreferencesPanel"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$filter$2f$useGridFilter$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridFilter"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$sorting$2f$useGridSorting$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridSorting"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$density$2f$useGridDensity$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridDensity"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$pagination$2f$useGridPagination$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridPagination"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$rows$2f$useGridRowsMeta$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridRowsMeta"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$scroll$2f$useGridScroll$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridScroll"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$columnMenu$2f$useGridColumnMenu$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridColumnMenu"])(apiRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$export$2f$useGridCsvExport$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridCsvExport"])(apiRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$export$2f$useGridPrintExport$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridPrintExport"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$clipboard$2f$useGridClipboard$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridClipboard"])(apiRef);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$dimensions$2f$useGridDimensions$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridDimensions"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$events$2f$useGridEvents$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridEvents"])(apiRef, props);
+    (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$hooks$2f$features$2f$statePersistence$2f$useGridStatePersistence$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useGridStatePersistence"])(apiRef);
+    return apiRef;
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/DataGrid/useDataGridProps.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "DATA_GRID_PROPS_DEFAULT_VALUES",
+    ()=>DATA_GRID_PROPS_DEFAULT_VALUES,
+    "MAX_PAGE_SIZE",
+    ()=>MAX_PAGE_SIZE,
+    "useDataGridProps",
+    ()=>useDataGridProps
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$next$2f$dist$2f$build$2f$polyfills$2f$process$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = /*#__PURE__*/ __turbopack_context__.i("[project]/project-root/frontend/node_modules/next/dist/build/polyfills/process.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@babel/runtime/helpers/esm/extends.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useThemeProps$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useThemeProps$3e$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/material/esm/styles/useThemeProps.js [client] (ecmascript) <export default as useThemeProps>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$defaultGridSlotsComponents$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/defaultGridSlotsComponents.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$localeTextConstants$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/constants/localeTextConstants.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridDensity$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridDensity.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridEditRowModel$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridEditRowModel.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridFeatureMode$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/models/gridFeatureMode.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+const DATA_GRID_FORCED_PROPS = {
+    apiRef: undefined,
+    disableMultipleColumnsFiltering: true,
+    disableMultipleColumnsSorting: true,
+    disableMultipleSelection: true,
+    throttleRowsMs: undefined,
+    hideFooterRowCount: false,
+    pagination: true,
+    checkboxSelectionVisibleOnly: false,
+    disableColumnReorder: true,
+    disableColumnResize: true,
+    keepColumnPositionIfDraggedOutside: false,
+    signature: 'DataGrid'
+};
+const MAX_PAGE_SIZE = 100;
+const DATA_GRID_PROPS_DEFAULT_VALUES = {
+    autoHeight: false,
+    autoPageSize: false,
+    checkboxSelection: false,
+    checkboxSelectionVisibleOnly: false,
+    columnBuffer: 3,
+    rowBuffer: 3,
+    columnThreshold: 3,
+    rowThreshold: 3,
+    density: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridDensity$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridDensityTypes"].Standard,
+    disableExtendRowFullWidth: false,
+    disableColumnFilter: false,
+    disableColumnMenu: false,
+    disableColumnSelector: false,
+    disableDensitySelector: false,
+    disableMultipleColumnsFiltering: false,
+    disableMultipleSelection: false,
+    disableMultipleColumnsSorting: false,
+    disableSelectionOnClick: false,
+    disableVirtualization: false,
+    disableIgnoreModificationsIfProcessingProps: false,
+    editMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridEditRowModel$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridEditModes"].Cell,
+    filterMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridFeatureMode$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFeatureModeConstant"].client,
+    headerHeight: 56,
+    hideFooter: false,
+    hideFooterPagination: false,
+    hideFooterRowCount: false,
+    hideFooterSelectedRowCount: false,
+    logger: console,
+    logLevel: ("TURBOPACK compile-time falsy", 0) ? "TURBOPACK unreachable" : 'warn',
+    pagination: false,
+    paginationMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridFeatureMode$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFeatureModeConstant"].client,
+    rowHeight: 52,
+    rowsPerPageOptions: [
+        25,
+        50,
+        100
+    ],
+    rowSpacingType: 'margin',
+    showCellRightBorder: false,
+    showColumnRightBorder: false,
+    sortingOrder: [
+        'asc',
+        'desc',
+        null
+    ],
+    sortingMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$models$2f$gridFeatureMode$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFeatureModeConstant"].client,
+    throttleRowsMs: 0,
+    disableColumnReorder: false,
+    disableColumnResize: false,
+    keepNonExistentRowsSelected: false,
+    keepColumnPositionIfDraggedOutside: false
+};
+const useDataGridProps = (inProps)=>{
+    if (inProps.pageSize > MAX_PAGE_SIZE) {
+        throw new Error(`'props.pageSize' cannot exceed 100 in DataGrid.`);
+    }
+    const themedProps = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$material$2f$esm$2f$styles$2f$useThemeProps$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__useThemeProps$3e$__["useThemeProps"])({
+        props: inProps,
+        name: 'MuiDataGrid'
+    });
+    const localeText = __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "useDataGridProps.useMemo[localeText]": ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$localeTextConstants$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GRID_DEFAULT_LOCALE_TEXT"], themedProps.localeText)
+    }["useDataGridProps.useMemo[localeText]"], [
+        themedProps.localeText
+    ]);
+    const components = __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "useDataGridProps.useMemo[components]": ()=>{
+            const overrides = themedProps.components;
+            if (!overrides) {
+                return (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$defaultGridSlotsComponents$2e$js__$5b$client$5d$__$28$ecmascript$29$__["DATA_GRID_DEFAULT_SLOTS_COMPONENTS"]);
+            }
+            const mergedComponents = {};
+            Object.entries(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$constants$2f$defaultGridSlotsComponents$2e$js__$5b$client$5d$__$28$ecmascript$29$__["DATA_GRID_DEFAULT_SLOTS_COMPONENTS"]).forEach({
+                "useDataGridProps.useMemo[components]": ([key, defaultComponent])=>{
+                    mergedComponents[key] = overrides[key] === undefined ? defaultComponent : overrides[key];
+                }
+            }["useDataGridProps.useMemo[components]"]);
+            return mergedComponents;
+        }
+    }["useDataGridProps.useMemo[components]"], [
+        themedProps.components
+    ]);
+    return __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useMemo"]({
+        "useDataGridProps.useMemo": ()=>(0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$babel$2f$runtime$2f$helpers$2f$esm$2f$extends$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"])({}, DATA_GRID_PROPS_DEFAULT_VALUES, themedProps, {
+                localeText,
+                components
+            }, DATA_GRID_FORCED_PROPS)
+    }["useDataGridProps.useMemo"], [
+        themedProps,
+        localeText,
+        components
+    ]);
+};
+}),
+"[project]/project-root/frontend/node_modules/@mui/x-data-grid/DataGrid/DataGrid.js [client] (ecmascript)", ((__turbopack_context__) => {
+"use strict";
+
+__turbopack_context__.s([
+    "DataGrid",
+    ()=>DataGrid
+]);
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/prop-types/index.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__chainPropTypes$3e$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/node_modules/@mui/utils/esm/chainPropTypes/chainPropTypes.js [client] (ecmascript) <export default as chainPropTypes>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridBody$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/base/GridBody.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridErrorHandler$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/base/GridErrorHandler.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridFooterPlaceholder$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/base/GridFooterPlaceholder.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridHeaderPlaceholder$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/base/GridHeaderPlaceholder.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$containers$2f$GridRoot$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/containers/GridRoot.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$context$2f$GridContextProvider$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/context/GridContextProvider.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$DataGrid$2f$useDataGridComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/DataGrid/useDataGridComponent.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$DataGrid$2f$useDataGridProps$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/DataGrid/useDataGridProps.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$DataGridVirtualScroller$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/DataGridVirtualScroller.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$DataGridColumnHeaders$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/@mui/x-data-grid/components/DataGridColumnHeaders.js [client] (ecmascript)");
+var __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/project-root/frontend/node_modules/react/jsx-runtime.js [client] (ecmascript)");
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+;
+const DataGridRaw = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["forwardRef"](function DataGrid(inProps, ref) {
+    const props = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$DataGrid$2f$useDataGridProps$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useDataGridProps"])(inProps);
+    const apiRef = (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$DataGrid$2f$useDataGridComponent$2e$js__$5b$client$5d$__$28$ecmascript$29$__["useDataGridComponent"])(props);
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$context$2f$GridContextProvider$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridContextProvider"], {
+        apiRef: apiRef,
+        props: props,
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$containers$2f$GridRoot$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridRoot"], {
+            className: props.className,
+            style: props.style,
+            sx: props.sx,
+            ref: ref,
+            children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsxs"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridErrorHandler$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridErrorHandler"], {
+                children: [
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridHeaderPlaceholder$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridHeaderPlaceholder"], {}),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridBody$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridBody"], {
+                        ColumnHeadersComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$DataGridColumnHeaders$2e$js__$5b$client$5d$__$28$ecmascript$29$__["DataGridColumnHeaders"],
+                        VirtualScrollerComponent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$DataGridVirtualScroller$2e$js__$5b$client$5d$__$28$ecmascript$29$__["DataGridVirtualScroller"]
+                    }),
+                    /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$jsx$2d$runtime$2e$js__$5b$client$5d$__$28$ecmascript$29$__["jsx"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$components$2f$base$2f$GridFooterPlaceholder$2e$js__$5b$client$5d$__$28$ecmascript$29$__["GridFooterPlaceholder"], {})
+                ]
+            })
+        })
+    });
+});
+const DataGrid = /*#__PURE__*/ __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$react$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["memo"](DataGridRaw);
+DataGridRaw.propTypes = {
+    // ----------------------------- Warning --------------------------------
+    // | These PropTypes are generated from the TypeScript type definitions |
+    // | To update them edit the TypeScript types and run "yarn proptypes"  |
+    // ----------------------------------------------------------------------
+    /**
+   * The label of the grid.
+   */ 'aria-label': __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * The id of the element containing a label for the grid.
+   */ 'aria-labelledby': __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * If `true`, the grid height is dynamic and follow the number of rows in the grid.
+   * @default false
+   */ autoHeight: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the pageSize is calculated according to the container size and the max number of rows to avoid rendering a vertical scroll bar.
+   * @default false
+   */ autoPageSize: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Controls the modes of the cells.
+   */ cellModesModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * If `true`, the grid get a first column with a checkbox that allows to select rows.
+   * @default false
+   */ checkboxSelection: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Override or extend the styles applied to the component.
+   */ classes: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Number of extra columns to be rendered before/after the visible slice.
+   * @default 3
+   */ columnBuffer: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    columnGroupingModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object),
+    /**
+   * Set of columns of type [[GridColumns]].
+   */ columns: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__chainPropTypes$3e$__["chainPropTypes"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].array.isRequired, (props)=>{
+        // @ts-ignore because otherwise `build:api` doesn't work
+        if (props.columns && props.columns.some((column)=>column.resizable)) {
+            return new Error([
+                `MUI: \`column.resizable = true\` is not a valid prop.`,
+                'Column resizing is not available in the MIT version.',
+                '',
+                'You need to upgrade to DataGridPro or DataGridPremium component to unlock this feature.'
+            ].join('\n'));
+        }
+        return null;
+    }),
+    /**
+   * Number of rows from the `columnBuffer` that can be visible before a new slice is rendered.
+   * @default 3
+   */ columnThreshold: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Extend native column types with your new column types.
+   */ columnTypes: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Set the column visibility model of the grid.
+   * If defined, the grid will ignore the `hide` property in [[GridColDef]].
+   */ columnVisibilityModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Overrideable components.
+   */ components: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Overrideable components props dynamically passed to the component at rendering.
+   */ componentsProps: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Set the density of the grid.
+   * @default "standard"
+   */ density: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'comfortable',
+        'compact',
+        'standard'
+    ]),
+    /**
+   * If `true`, column filters are disabled.
+   * @default false
+   */ disableColumnFilter: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the column menu is disabled.
+   * @default false
+   */ disableColumnMenu: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, hiding/showing columns is disabled.
+   * @default false
+   */ disableColumnSelector: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the density selector is disabled.
+   * @default false
+   */ disableDensitySelector: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, rows will not be extended to fill the full width of the grid container.
+   * @default false
+   */ disableExtendRowFullWidth: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, modification to a cell will not be discarded if the mode is changed from "edit" to "view" while processing props.
+   * @default false
+   */ disableIgnoreModificationsIfProcessingProps: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the selection on click on a row or cell is disabled.
+   * @default false
+   */ disableSelectionOnClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the virtualization is disabled.
+   * @default false
+   */ disableVirtualization: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Controls whether to use the cell or row editing.
+   * @default "cell"
+   */ editMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'cell',
+        'row'
+    ]),
+    /**
+   * Set the edit rows model of the grid.
+   */ editRowsModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * An error that will turn the grid into its error state and display the error component.
+   */ error: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].any,
+    /**
+   * Features under development.
+   * For each feature, if the flag is not explicitly set to `true`, the feature will be fully disabled and any property / method call will not have any effect.
+   */ experimentalFeatures: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].shape({
+        columnGrouping: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+        newEditingApi: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+        preventCommitWhileValidating: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+        warnIfFocusStateIsNotSynced: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool
+    }),
+    /**
+   * Filtering can be processed on the server or client-side.
+   * Set it to 'server' if you would like to handle filtering on the server-side.
+   * @default "client"
+   */ filterMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'client',
+        'server'
+    ]),
+    /**
+   * Set the filter model of the grid.
+   */ filterModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].shape({
+        items: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].shape({
+            columnField: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string.isRequired,
+            id: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+                __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+                __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string
+            ]),
+            operatorValue: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string,
+            value: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].any
+        })).isRequired,
+        linkOperator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'and',
+            'or'
+        ]),
+        quickFilterLogicOperator: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'and',
+            'or'
+        ]),
+        quickFilterValues: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].array
+    }),
+    /**
+   * Function that applies CSS classes dynamically on cells.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @returns {string} The CSS class to apply to the cell.
+   */ getCellClassName: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Function that returns the element to render in row detail.
+   * @param {GridRowParams} params With all properties from [[GridRowParams]].
+   * @returns {JSX.Element} The row detail element.
+   */ getDetailPanelContent: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Function that returns the estimated height for a row.
+   * Only works if dynamic row height is used.
+   * Once the row height is measured this value is discarded.
+   * @param {GridRowHeightParams} params With all properties from [[GridRowHeightParams]].
+   * @returns {number | null} The estimated row height value. If `null` or `undefined` then the default row height, based on the density, is applied.
+   */ getEstimatedRowHeight: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Function that applies CSS classes dynamically on rows.
+   * @param {GridRowClassNameParams} params With all properties from [[GridRowClassNameParams]].
+   * @returns {string} The CSS class to apply to the row.
+   */ getRowClassName: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Function that sets the row height per row.
+   * @param {GridRowHeightParams} params With all properties from [[GridRowHeightParams]].
+   * @returns {GridRowHeightReturnValue} The row height value. If `null` or `undefined` then the default row height is applied. If "auto" then the row height is calculated based on the content.
+   */ getRowHeight: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Return the id of a given [[GridRowModel]].
+   */ getRowId: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Function that allows to specify the spacing between rows.
+   * @param {GridRowSpacingParams} params With all properties from [[GridRowSpacingParams]].
+   * @returns {GridRowSpacing} The row spacing values.
+   */ getRowSpacing: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Set the height in pixel of the column headers in the grid.
+   * @default 56
+   */ headerHeight: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * If `true`, the footer component is hidden.
+   * @default false
+   */ hideFooter: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the pagination component in the footer is hidden.
+   * @default false
+   */ hideFooterPagination: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the selected row count in the footer is hidden.
+   * @default false
+   */ hideFooterSelectedRowCount: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * The initial state of the DataGrid.
+   * The data in it will be set in the state on initialization but will not be controlled.
+   * If one of the data in `initialState` is also being controlled, then the control state wins.
+   */ initialState: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Callback fired when a cell is rendered, returns true if the cell is editable.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @returns {boolean} A boolean indicating if the cell is editable.
+   */ isCellEditable: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Determines if a row can be selected.
+   * @param {GridRowParams} params With all properties from [[GridRowParams]].
+   * @returns {boolean} A boolean indicating if the cell is selectable.
+   */ isRowSelectable: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * If `true`, the selection model will retain selected rows that do not exist.
+   * Useful when using server side pagination and row selections need to be retained
+   * when changing pages.
+   * @default false
+   */ keepNonExistentRowsSelected: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, a  loading overlay is displayed.
+   */ loading: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Set the locale text of the grid.
+   * You can find all the translation keys supported in [the source](https://github.com/mui/mui-x/blob/HEAD/packages/grid/x-data-grid/src/constants/localeTextConstants.ts) in the GitHub repository.
+   */ localeText: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Pass a custom logger in the components that implements the [[Logger]] interface.
+   * @default console
+   */ logger: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].shape({
+        debug: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+        error: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+        info: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func.isRequired,
+        warn: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func.isRequired
+    }),
+    /**
+   * Allows to pass the logging level or false to turn off logging.
+   * @default "error" ("warn" in dev mode)
+   */ logLevel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'debug',
+        'error',
+        'info',
+        'warn',
+        false
+    ]),
+    /**
+   * Nonce of the inline styles for [Content Security Policy](https://www.w3.org/TR/2016/REC-CSP2-20161215/#script-src-the-nonce-attribute).
+   */ nonce: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string,
+    /**
+   * Callback fired when any cell is clicked.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onCellClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a double click event comes from a cell element.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onCellDoubleClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the cell changes are committed.
+   * @param {GridCellEditCommitParams} params With all properties from [[GridCellEditCommitParams]].
+   * @param {MuiEvent<MuiBaseEvent>} event The event that caused this prop to be called.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onCellEditCommit: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the cell turns to edit mode.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @param {MuiEvent<React.KeyboardEvent | React.MouseEvent>} event The event that caused this prop to be called.
+   */ onCellEditStart: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the cell turns to view mode.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @param {MuiEvent<MuiBaseEvent>} event The event that caused this prop to be called.
+   */ onCellEditStop: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a cell loses focus.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @param {MuiEvent<MuiBaseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onCellFocusOut: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a keydown event comes from a cell element.
+   * @param {GridCellParams} params With all properties from [[GridCellParams]].
+   * @param {MuiEvent<React.KeyboardEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onCellKeyDown: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the `cellModesModel` prop changes.
+   * @param {GridCellModesModel} cellModesModel Object containig which cells are in "edit" mode.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onCellModesModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a click event comes from a column header element.
+   * @param {GridColumnHeaderParams} params With all properties from [[GridColumnHeaderParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnHeaderClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a double click event comes from a column header element.
+   * @param {GridColumnHeaderParams} params With all properties from [[GridColumnHeaderParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnHeaderDoubleClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a mouse enter event comes from a column header element.
+   * @param {GridColumnHeaderParams} params With all properties from [[GridColumnHeaderParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnHeaderEnter: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a mouse leave event comes from a column header element.
+   * @param {GridColumnHeaderParams} params With all properties from [[GridColumnHeaderParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnHeaderLeave: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a mouseout event comes from a column header element.
+   * @param {GridColumnHeaderParams} params With all properties from [[GridColumnHeaderParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnHeaderOut: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a mouseover event comes from a column header element.
+   * @param {GridColumnHeaderParams} params With all properties from [[GridColumnHeaderParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnHeaderOver: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a column is reordered.
+   * @param {GridColumnOrderChangeParams} params With all properties from [[GridColumnOrderChangeParams]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnOrderChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a column visibility changes.
+   * Only works when no `columnVisibilityModel` is provided and if we change the visibility of a single column at a time.
+   * @param {GridColumnVisibilityChangeParams} params With all properties from [[GridColumnVisibilityChangeParams]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   * @deprecated Use `onColumnVisibilityModelChange` instead.
+   */ onColumnVisibilityChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the column visibility model changes.
+   * @param {GridColumnVisibilityModel} model The new model.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onColumnVisibilityModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the edit cell value changes.
+   * @param {GridEditCellPropsParams} params With all properties from [[GridEditCellPropsParams]].
+   * @param {MuiEvent<React.SyntheticEvent>} event The event that caused this prop to be called.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   * @deprecated use `preProcessEditCellProps` from the [`GridColDef`](/x/api/data-grid/grid-col-def/)
+   */ onEditCellPropsChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the `editRowsModel` changes.
+   * @param {GridEditRowsModel} editRowsModel With all properties from [[GridEditRowsModel]].
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onEditRowsModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when an exception is thrown in the grid.
+   * @param {any} args The arguments passed to the `showError` call.
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onError: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the Filter model changes before the filters are applied.
+   * @param {GridFilterModel} model With all properties from [[GridFilterModel]].
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onFilterModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the menu is closed.
+   * @param {GridMenuParams} params With all properties from [[GridMenuParams]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onMenuClose: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the menu is opened.
+   * @param {GridMenuParams} params With all properties from [[GridMenuParams]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onMenuOpen: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the current page has changed.
+   * @param {number} page Index of the page displayed on the Grid.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onPageChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the page size has changed.
+   * @param {number} pageSize Size of the page displayed on the Grid.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onPageSizeChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the preferences panel is closed.
+   * @param {GridPreferencePanelParams} params With all properties from [[GridPreferencePanelParams]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onPreferencePanelClose: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the preferences panel is opened.
+   * @param {GridPreferencePanelParams} params With all properties from [[GridPreferencePanelParams]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onPreferencePanelOpen: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback called when `processRowUpdate` throws an error or rejects.
+   * @param {any} error The error thrown.
+   */ onProcessRowUpdateError: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the grid is resized.
+   * @param {ElementSize} containerSize With all properties from [[ElementSize]].
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onResize: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a row is clicked.
+   * Not called if the target clicked is an interactive element added by the built-in columns.
+   * @param {GridRowParams} params With all properties from [[GridRowParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onRowClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when a double click event comes from a row container element.
+   * @param {GridRowParams} params With all properties from [[RowParams]].
+   * @param {MuiEvent<React.MouseEvent>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onRowDoubleClick: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the row changes are committed.
+   * @param {GridRowId} id The row id.
+   * @param {MuiEvent<MuiBaseEvent>} event The event that caused this prop to be called.
+   */ onRowEditCommit: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the row turns to edit mode.
+   * @param {GridRowParams} params With all properties from [[GridRowParams]].
+   * @param {MuiEvent<React.KeyboardEvent | React.MouseEvent>} event The event that caused this prop to be called.
+   */ onRowEditStart: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the row turns to view mode.
+   * @param {GridRowParams} params With all properties from [[GridRowParams]].
+   * @param {MuiEvent<MuiBaseEvent>} event The event that caused this prop to be called.
+   */ onRowEditStop: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the `rowModesModel` prop changes.
+   * @param {GridRowModesModel} rowModesModel Object containig which rows are in "edit" mode.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onRowModesModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the selection state of one or multiple rows changes.
+   * @param {GridSelectionModel} selectionModel With all the row ids [[GridSelectionModel]].
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onSelectionModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the sort model changes before a column is sorted.
+   * @param {GridSortModel} model With all properties from [[GridSortModel]].
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   */ onSortModelChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Callback fired when the state of the grid is updated.
+   * @param {GridState} state The new state.
+   * @param {MuiEvent<{}>} event The event object.
+   * @param {GridCallbackDetails} details Additional details for this callback.
+   * @ignore - do not document.
+   */ onStateChange: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * The zero-based index of the current page.
+   * @default 0
+   */ page: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Set the number of rows in one page.
+   * If some of the rows have children (for instance in the tree data), this number represents the amount of top level rows wanted on each page.
+   * @default 100
+   */ pageSize: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__chainPropTypes$3e$__["chainPropTypes"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number, (props)=>{
+        if (props.pageSize && props.pageSize > __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$DataGrid$2f$useDataGridProps$2e$js__$5b$client$5d$__$28$ecmascript$29$__["MAX_PAGE_SIZE"]) {
+            return new Error([
+                `MUI: \`<DataGrid pageSize={${props.pageSize}} />\` is not a valid prop.`,
+                `Only page size below ${__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$DataGrid$2f$useDataGridProps$2e$js__$5b$client$5d$__$28$ecmascript$29$__["MAX_PAGE_SIZE"]} is available in the MIT version.`,
+                '',
+                'You need to upgrade to DataGridPro or DataGridPremium component to unlock this feature.'
+            ].join('\n'));
+        }
+        return null;
+    }),
+    pagination: (props)=>{
+        if (props.pagination === false) {
+            return new Error([
+                'MUI: `<DataGrid pagination={false} />` is not a valid prop.',
+                'Infinite scrolling is not available in the MIT version.',
+                '',
+                'You need to upgrade to DataGridPro or DataGridPremium component to disable the pagination.'
+            ].join('\n'));
+        }
+        return null;
+    },
+    /**
+   * Pagination can be processed on the server or client-side.
+   * Set it to 'client' if you would like to handle the pagination on the client-side.
+   * Set it to 'server' if you would like to handle the pagination on the server-side.
+   * @default "client"
+   */ paginationMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'client',
+        'server'
+    ]),
+    /**
+   * Callback called before updating a row with new values in the row and cell editing.
+   * Only applied if `props.experimentalFeatures.newEditingApi: true`.
+   * @template R
+   * @param {R} newRow Row object with the new values.
+   * @param {R} oldRow Row object with the old values.
+   * @returns {Promise<R> | R} The final values to update the row.
+   */ processRowUpdate: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+    /**
+   * Number of extra rows to be rendered before/after the visible slice.
+   * @default 3
+   */ rowBuffer: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Set the total number of rows, if it is different from the length of the value `rows` prop.
+   * If some rows have children (for instance in the tree data), this number represents the amount of top level rows.
+   */ rowCount: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Set the height in pixel of a row in the grid.
+   * @default 52
+   */ rowHeight: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Controls the modes of the rows.
+   */ rowModesModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+    /**
+   * Set of rows of type [[GridRowsProp]].
+   */ rows: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object).isRequired,
+    /**
+   * Sets the type of space between rows added by `getRowSpacing`.
+   * @default "margin"
+   */ rowSpacingType: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'border',
+        'margin'
+    ]),
+    /**
+   * Select the pageSize dynamically using the component UI.
+   * @default [25, 50, 100]
+   */ rowsPerPageOptions: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number),
+    /**
+   * Number of rows from the `rowBuffer` that can be visible before a new slice is rendered.
+   * @default 3
+   */ rowThreshold: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Override the height/width of the grid inner scrollbar.
+   */ scrollbarSize: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+    /**
+   * Set the selection model of the grid.
+   */ selectionModel: (0, __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f40$mui$2f$x$2d$data$2d$grid$2f$node_modules$2f40$mui$2f$utils$2f$esm$2f$chainPropTypes$2f$chainPropTypes$2e$js__$5b$client$5d$__$28$ecmascript$29$__$3c$export__default__as__chainPropTypes$3e$__["chainPropTypes"])(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].number,
+        __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string,
+        __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].array
+    ]), (props)=>{
+        if (!props.checkboxSelection && Array.isArray(props.selectionModel) && props.selectionModel.length > 1) {
+            return new Error([
+                `MUI: \`<DataGrid selectionModel={${JSON.stringify(props.selectionModel)}} />\` is not a valid prop.`,
+                'selectionModel can only be of 1 item in DataGrid.',
+                '',
+                'You need to upgrade to DataGridPro or DataGridPremium component to unlock multiple selection.'
+            ].join('\n'));
+        }
+        return null;
+    }),
+    /**
+   * If `true`, the right border of the cells are displayed.
+   * @default false
+   */ showCellRightBorder: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * If `true`, the right border of the column headers are displayed.
+   * @default false
+   */ showColumnRightBorder: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool,
+    /**
+   * Sorting can be processed on the server or client-side.
+   * Set it to 'client' if you would like to handle sorting on the client-side.
+   * Set it to 'server' if you would like to handle sorting on the server-side.
+   * @default "client"
+   */ sortingMode: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'client',
+        'server'
+    ]),
+    /**
+   * The order of the sorting sequence.
+   * @default ['asc', 'desc', null]
+   */ sortingOrder: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+        'asc',
+        'desc'
+    ])),
+    /**
+   * Set the sort model of the grid.
+   */ sortModel: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].shape({
+        field: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].string.isRequired,
+        sort: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOf([
+            'asc',
+            'desc'
+        ])
+    })),
+    /**
+   * The system prop that allows defining system overrides as well as additional CSS styles.
+   */ sx: __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+        __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].arrayOf(__TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].oneOfType([
+            __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+            __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object,
+            __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].bool
+        ])),
+        __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].func,
+        __TURBOPACK__imported__module__$5b$project$5d2f$project$2d$root$2f$frontend$2f$node_modules$2f$prop$2d$types$2f$index$2e$js__$5b$client$5d$__$28$ecmascript$29$__["default"].object
+    ])
+};
+}),
+]);
+
+//# sourceMappingURL=9a820_%40mui_x-data-grid_3bbab520._.js.map
