@@ -532,7 +532,7 @@ function DashboardProvider({ children }) {
         columnNumber: 5
     }, this);
 }
-_s1(DashboardProvider, "LnhgPlO5BuTCwa3W4DmrMTVjD3U=");
+_s1(DashboardProvider, "WMxv/sSr09wyH0JSNRZIZfXE8Ks=");
 _c = DashboardProvider;
 var _c;
 __turbopack_context__.k.register(_c, "DashboardProvider");

@@ -2,13 +2,13 @@ globalThis.__BUILD_MANIFEST = {
   "pages": {
     "/": [
       "static/chunks/9588e03a9492bf51.js",
-      "static/chunks/13cfc57ea09253df.js",
-      "static/chunks/df3b49c2aad26af1.js",
       "static/chunks/cafed5e706a09dc1.js",
+      "static/chunks/df3b49c2aad26af1.js",
+      "static/chunks/5d323f163c42df21.js",
       "static/chunks/72d20c2ef2524993.js",
-      "static/chunks/b737ce38e0ddb4a0.js",
       "static/chunks/d6bfee85369a6faa.js",
-      "static/chunks/turbopack-7088b21191c8c9f1.js"
+      "static/chunks/13cfc57ea09253df.js",
+      "static/chunks/turbopack-2f999cb8ef3dc17e.js"
     ],
     "/_app": [
       "static/chunks/adddad061b84ab05.js",
@@ -33,12 +33,12 @@ globalThis.__BUILD_MANIFEST = {
       "static/chunks/turbopack-ff80e610ad7e822b.js"
     ],
     "/settings": [
-      "static/chunks/2fec642a8484b9cc.js",
+      "static/chunks/cefaad0cad85dcfb.js",
       "static/chunks/df3b49c2aad26af1.js",
       "static/chunks/01561f4b827af849.js",
       "static/chunks/d6bfee85369a6faa.js",
       "static/chunks/c0c40834dd800cd8.js",
-      "static/chunks/turbopack-1f342deae2b1f6aa.js"
+      "static/chunks/turbopack-1e4b6485f7702b26.js"
     ],
     "/users": [
       "static/chunks/d22e588289320d1a.js",

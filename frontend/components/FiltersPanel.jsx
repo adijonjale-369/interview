@@ -1,5 +1,14 @@
 import React, { useEffect, useState } from 'react';
-import { Box, TextField, Select, MenuItem, Button, Typography, useTheme, useMediaQuery } from '@mui/material';
+import {
+  Box,
+  TextField,
+  Select,
+  MenuItem,
+  Button,
+  useTheme,
+  useMediaQuery,
+  Paper
+} from '@mui/material';
 import { DateRangePicker, LocalizationProvider } from '@mui/x-date-pickers-pro';
 import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { fetchFilters } from '../utils/api';
@@ -8,7 +17,10 @@ import { useDashboard } from '../context/DashboardContext';
 export default function FiltersPanel({ onFilterChange, loadTable }) {
   const { filters, setFilters } = useDashboard();
   const [options, setOptions] = useState({ categories: [], statuses: [] });
-  const [dateRange, setDateRange] = useState([filters.startDate ? new Date(filters.startDate) : null, filters.endDate ? new Date(filters.endDate) : null]);
+  const [dateRange, setDateRange] = useState([
+    filters.startDate ? new Date(filters.startDate) : null,
+    filters.endDate ? new Date(filters.endDate) : null
+  ]);
 
   const theme = useTheme();
   const isSmall = useMediaQuery(theme.breakpoints.down('md'));
@@ -35,63 +47,108 @@ export default function FiltersPanel({ onFilterChange, loadTable }) {
   };
 
   return (
-    <Box sx={{ p: 2 }}>
-      <Typography variant="subtitle1" gutterBottom>Filters</Typography>
-      <TextField
-        label="Search"
-        value={filters.search}
-        onChange={(e)=> setFilters(prev=> ({...prev, search:e.target.value, page:1}))}
-        fullWidth
-        margin="dense"
-        sx={{ mb: 2 }}
-      />
+    <Paper
+      elevation={0}
+      sx={{
+        p: 3,
+        borderRadius: "14px",
+        border: "1px solid #E5E7EB",
+        display: "flex",
+        flexDirection: "column",
+        gap: 2,
+        width: "800px"
+      }}
+    >
 
-      <Select
-        value={filters.category}
-        displayEmpty
-        fullWidth
-        onChange={(e)=> setFilters(prev=> ({...prev, category:e.target.value, page:1}))}
-        margin="dense"
-        sx={{ mb: 2 }}
+      <Box
+        sx={{
+          display: "flex",
+          gap: 2,
+          flexWrap: isSmall ? "wrap" : "nowrap"
+        }}
       >
-        <MenuItem value="">All Categories</MenuItem>
-        {options.categories.map(c=> <MenuItem key={c} value={c}>{c}</MenuItem>)}
-      </Select>
-
-      <Select
-        value={filters.status}
-        displayEmpty
-        fullWidth
-        onChange={(e)=> setFilters(prev=> ({...prev, status:e.target.value, page:1}))}
-        margin="dense"
-        sx={{ mb: 2 }}
-      >
-        <MenuItem value="">All Status</MenuItem>
-        {options.statuses.map(s=> <MenuItem key={s} value={s}>{s}</MenuItem>)}
-      </Select>
-
-      <LocalizationProvider dateAdapter={AdapterDateFns}>
-        <DateRangePicker
-          calendars={1}
-          value={dateRange}
-          onChange={(newVal) => {
-            setDateRange(newVal);
-            const [start, end] = newVal;
-            setFilters(prev=> ({...prev, startDate: start ? start.toISOString() : null, endDate: end ? end.toISOString() : null, page:1}));
-          }}
-          renderInput={(startProps, endProps) => (
-            <Box sx={{ display: 'flex', flexDirection: isSmall ? 'column' : 'row', gap: 1, mt: 2, mb: 2 }}>
-              <TextField fullWidth {...startProps} />
-              <TextField fullWidth {...endProps} />
-            </Box>
-          )}
+        <TextField
+          placeholder="Search"
+          value={filters.search}
+          onChange={(e) => setFilters(prev => ({ ...prev, search: e.target.value, page: 1 }))}
+          fullWidth
+          size='small'
         />
-      </LocalizationProvider>
 
-      <Box sx={{ display:'flex', flexDirection: isSmall ? 'column' : 'row', gap:1, mt:2 }}>
-        <Button variant="contained" onClick={() => onFilterChange && onFilterChange()}>Apply</Button>
-        <Button variant="outlined" onClick={()=>reset()}>Reset Filters</Button>
+        <Select
+          value={filters.category}
+          fullWidth
+          size="small"
+          displayEmpty
+          onChange={(e) => setFilters(prev => ({ ...prev, category: e.target.value, page: 1 }))}
+        >
+          <MenuItem value="">Category</MenuItem>
+          {options.categories.map(c => <MenuItem key={c} value={c}>{c}</MenuItem>)}
+        </Select>
+
+        <Select
+          value={filters.status}
+          fullWidth
+          size="small"
+          displayEmpty
+          onChange={(e) => setFilters(prev => ({ ...prev, status: e.target.value, page: 1 }))}
+        >
+          <MenuItem value="">Status</MenuItem>
+          {options.statuses.map(s => <MenuItem key={s} value={s}>{s}</MenuItem>)}
+        </Select>
       </Box>
-    </Box>
+
+      <Box
+        sx={{
+          display: "flex",
+          gap: 2,
+          alignItems: "center",
+          width: "100%"
+        }}
+      >
+        <Box sx={{ flex: 1 }}>
+          <LocalizationProvider dateAdapter={AdapterDateFns}>
+            <DateRangePicker
+              value={dateRange}
+              onChange={(newVal) => {
+                setDateRange(newVal);
+                const [start, end] = newVal;
+                setFilters(prev => ({
+                  ...prev,
+                  startDate: start ? start.toISOString() : null,
+                  endDate: end ? end.toISOString() : null,
+                  page: 1
+                }));
+              }}
+              slotProps={{
+                textField: { size: "small", fullWidth: true }
+              }}
+            />
+          </LocalizationProvider>
+        </Box>
+
+        <Button variant="outlined" size="small" onClick={()=>reset()}
+          sx={{
+            flexGrow: 1,
+            height: "40px"
+          }}>
+          Reset
+        </Button>
+
+        <Button
+          variant="contained"
+          size="small"
+          sx={{
+            flexGrow: 1,
+            height: "40px"
+          }}
+          onClick={() => onFilterChange && onFilterChange()}
+        >
+          Apply Filters
+        </Button>
+      </Box>
+
+
+    </Paper>
   );
 }

@@ -8,7 +8,7 @@ export default function SettingsPage() {
     <Layout>
       <Container maxWidth="md" sx={{ mt: 2, mb: 4 }}>
         <Typography variant="h4" gutterBottom sx={{ mb: 3 }}>
-          Settings
+          Settings Adarsh
         </Typography>
       </Container>
     </Layout>

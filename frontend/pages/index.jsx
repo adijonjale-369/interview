@@ -45,6 +45,10 @@ export default function DashboardPage() {
     }
   };
 
+  // If I remove apply button then api would be called and render will render on each filter
+  // useEffect(()=>{
+  //   loadTable()
+  // },[filters])
 
   // ============= LOAD SUMMARY METRICS ================
   useEffect(() => {

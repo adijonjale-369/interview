@@ -1,12 +1,13 @@
 (globalThis.TURBOPACK_CHUNK_LISTS || (globalThis.TURBOPACK_CHUNK_LISTS = [])).push({
     script: typeof document === "object" ? document.currentScript : undefined,
     chunks: [
-  "static/chunks/node_modules_@mui_x-telemetry_esm_runtime_get-context_02371093.js",
-  "static/chunks/[root-of-the-server]__bd250ce6._.js",
+  "static/chunks/node_modules_@mui_x-telemetry_esm_runtime_get-context_3c6e1a39.js",
+  "static/chunks/[root-of-the-server]__cb852574._.js",
   "static/chunks/node_modules_next_dist_compiled_caaa605a._.js",
-  "static/chunks/node_modules_next_dist_shared_lib_82dc2e9d._.js",
-  "static/chunks/node_modules_next_dist_client_d0aa886c._.js",
+  "static/chunks/node_modules_next_dist_shared_lib_4025f6b7._.js",
+  "static/chunks/node_modules_next_dist_client_3ede7da4._.js",
   "static/chunks/node_modules_next_dist_7fdbac9b._.js",
+  "static/chunks/node_modules_next_link_207af988.js",
   "static/chunks/node_modules_react_e3593a73._.js",
   "static/chunks/node_modules_react-dom_cjs_react-dom_development_2b5e0eb3.js",
   "static/chunks/node_modules_react-dom_8a8085df._.js",
