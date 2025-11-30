@@ -5,7 +5,7 @@ import { AdapterDateFns } from '@mui/x-date-pickers/AdapterDateFns';
 import { fetchFilters } from '../utils/api';
 import { useDashboard } from '../context/DashboardContext';
 
-export default function FiltersPanel({ onFilterChange }) {
+export default function FiltersPanel({ onFilterChange, loadTable }) {
   const { filters, setFilters } = useDashboard();
   const [options, setOptions] = useState({ categories: [], statuses: [] });
   const [dateRange, setDateRange] = useState([filters.startDate ? new Date(filters.startDate) : null, filters.endDate ? new Date(filters.endDate) : null]);
@@ -18,23 +18,24 @@ export default function FiltersPanel({ onFilterChange }) {
   }, []);
 
   const reset = () => {
-    setFilters({
+    const newFilters = {
       search: '',
       category: '',
       status: '',
       startDate: null,
       endDate: null,
       page: 1,
-      pageSize: filters.pageSize || 10,
+      pageSize: 10,
       sortBy: 'date',
       sortDir: 'desc'
-    });
-    setDateRange([null,null]);
-    onFilterChange && onFilterChange();
+    };
+    setFilters(newFilters);
+    setDateRange([null, null]);
+    if (loadTable) loadTable(newFilters);
   };
 
   return (
-    <Box sx={{ p:2 }}>
+    <Box sx={{ p: 2 }}>
       <Typography variant="subtitle1" gutterBottom>Filters</Typography>
       <TextField
         label="Search"
@@ -42,6 +43,7 @@ export default function FiltersPanel({ onFilterChange }) {
         onChange={(e)=> setFilters(prev=> ({...prev, search:e.target.value, page:1}))}
         fullWidth
         margin="dense"
+        sx={{ mb: 2 }}
       />
 
       <Select
@@ -50,6 +52,7 @@ export default function FiltersPanel({ onFilterChange }) {
         fullWidth
         onChange={(e)=> setFilters(prev=> ({...prev, category:e.target.value, page:1}))}
         margin="dense"
+        sx={{ mb: 2 }}
       >
         <MenuItem value="">All Categories</MenuItem>
         {options.categories.map(c=> <MenuItem key={c} value={c}>{c}</MenuItem>)}
@@ -61,6 +64,7 @@ export default function FiltersPanel({ onFilterChange }) {
         fullWidth
         onChange={(e)=> setFilters(prev=> ({...prev, status:e.target.value, page:1}))}
         margin="dense"
+        sx={{ mb: 2 }}
       >
         <MenuItem value="">All Status</MenuItem>
         {options.statuses.map(s=> <MenuItem key={s} value={s}>{s}</MenuItem>)}
@@ -76,7 +80,7 @@ export default function FiltersPanel({ onFilterChange }) {
             setFilters(prev=> ({...prev, startDate: start ? start.toISOString() : null, endDate: end ? end.toISOString() : null, page:1}));
           }}
           renderInput={(startProps, endProps) => (
-            <Box sx={{ display: 'flex', flexDirection: isSmall ? 'column' : 'row', gap: 1, mt: 2 }}>
+            <Box sx={{ display: 'flex', flexDirection: isSmall ? 'column' : 'row', gap: 1, mt: 2, mb: 2 }}>
               <TextField fullWidth {...startProps} />
               <TextField fullWidth {...endProps} />
             </Box>
@@ -86,7 +90,7 @@ export default function FiltersPanel({ onFilterChange }) {
 
       <Box sx={{ display:'flex', flexDirection: isSmall ? 'column' : 'row', gap:1, mt:2 }}>
         <Button variant="contained" onClick={() => onFilterChange && onFilterChange()}>Apply</Button>
-        <Button variant="outlined" onClick={reset}>Reset Filters</Button>
+        <Button variant="outlined" onClick={()=>reset()}>Reset Filters</Button>
       </Box>
     </Box>
   );

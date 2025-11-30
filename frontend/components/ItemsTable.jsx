@@ -30,7 +30,7 @@ export default function ItemsTable({ items, total, page, pageSize, loading, onPa
   ];
 
   return (
-    <Box sx={{ width: '100%' }}>
+    <Box sx={{ width: '100vh' }}>
       <Box sx={{ height: isSmall ? 400 : 600, width: '100%' }}>
         <DataGrid
           rows={rows}

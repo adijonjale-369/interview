@@ -1,5 +1,3 @@
-
-
 const express = require("express");
 const cors = require("cors");
 const morgan = require("morgan");
@@ -76,6 +74,18 @@ app.get("/items", (req, res) => {
   const paged = items.slice(start, start + pageSize);
 
   res.json({ page, pageSize, total, items: paged });
+});
+
+// FETCH SINGLE ITEM BY ID
+app.get("/items/:id", (req, res) => {
+  const { id } = req.params;
+  const item = tableData.find((i) => i.id === id || i.id === Number(id));
+  
+  if (!item) {
+    return res.status(404).json({ error: "Item not found" });
+  }
+  
+  res.json(item);
 });
 
 //FILTERS API

@@ -1,8 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { Box, Grid, Container } from '@mui/material';
 
-import Sidebar from '../components/Sidebar';
-import Header from '../components/Header';
+import Layout from '../components/Layout';
 import FiltersPanel from '../components/FiltersPanel';
 import SummaryCards from '../components/SummaryCards';
 import ChartsPanel from '../components/ChartsPanel';
@@ -27,10 +26,12 @@ export default function DashboardPage() {
   const [loading, setLoading] = useState(false);
 
   // ============= LOAD TABLE DATA ====================
-  const loadTable = async () => {
+  const loadTable = async (overrideFilters) => {
+    const f = overrideFilters || filters;
+    console.log('Loading table with filters:', f);
     setLoading(true);
     try {
-      const res = await fetchItems(filters);
+      const res = await fetchItems(f);
       setData({
         items: res.items,
         total: res.total,
@@ -44,22 +45,10 @@ export default function DashboardPage() {
     }
   };
 
-  useEffect(() => {
-    loadTable();
-  }, [
-    filters.page,
-    filters.pageSize,
-    filters.search,
-    filters.category,
-    filters.status,
-    filters.startDate,
-    filters.endDate,
-    filters.sortBy,
-    filters.sortDir
-  ]);
 
   // ============= LOAD SUMMARY METRICS ================
   useEffect(() => {
+    loadTable()
     fetchSummary().then(setSummary).catch(console.error);
   }, []);
 
@@ -69,78 +58,61 @@ export default function DashboardPage() {
   }, []);
 
   return (
-    <Box sx={{ display: 'flex', minHeight: '100vh', bgcolor: '#f7f8fa' }}>
-      
-      {/* SIDEBAR */}
-      <Box
-        sx={{
-          // width: 200,
-          minHeight: '100vh',
-          bgcolor: '#1e1e2f',
-          color: 'white',
-          p: 2,
-          position: 'fixed',
-          left: 0,
-          top: 0,
-          bottom: 0,
-        }}
-      >
-        <Sidebar />
+    <Layout>
+      <Box sx={{ display: 'flex', minHeight: '100vh', bgcolor: '#f7f8fa' }}>
+
+        {/* MAIN CONTENT */}
+        <Box
+          component="main"
+          sx={{
+            flexGrow: 1,
+            display: 'flex',
+            flexDirection: 'column',
+            minHeight: '100vh',
+          }}
+        >
+
+          <Container maxWidth="xl" sx={{ mt: 2, mb: 4 }}>
+
+            {/* ==== SUMMARY CARDS ==== */}
+            <SummaryCards metrics={summary} />
+
+            {/* ==== OVERVIEW CHARTS ==== */}
+            <Box sx={{ mt: 4, mb: 4 }}>
+              <OverviewCharts charts={chartsData} loading={loading} />
+              {/* <OverviewCharts  /> */}
+            </Box>
+
+            <Grid container spacing={2} sx={{ mt: 2 }}>
+
+              {/* FILTER PANEL */}
+              <Grid item xs={12} md={3}>
+                <FiltersPanel onFilterChange={loadTable} loadTable={loadTable}/>
+              </Grid>
+
+              {/* CHARTS PANEL */}
+              <Grid item xs={12} md={9}>
+                <ChartsPanel items={data.items} />
+              </Grid>
+
+              {/* TABLE */}
+              <Grid item xs={12}>
+                <ItemsTable
+                  items={data.items}
+                  total={data.total}
+                  page={data.page}
+                  pageSize={data.pageSize}
+                  loading={loading}
+                  onPageChange={(page) => setFilters(prev => ({ ...prev, page }))}
+                  onPageSizeChange={(pageSize) => setFilters(prev => ({ ...prev, pageSize, page: 1 }))}
+                  onSortChange={(sortBy, sortDir) => setFilters(prev => ({ ...prev, sortBy, sortDir }))}
+                />
+              </Grid>
+
+            </Grid>
+          </Container>
+        </Box>
       </Box>
-
-      {/* MAIN CONTENT */}
-      <Box
-        component="main"
-        sx={{
-          flexGrow: 1,
-          ml: '240px',
-          display: 'flex',
-          flexDirection: 'column',
-          minHeight: '100vh',
-        }}
-      >
-        <Header />
-
-        <Container maxWidth="xl" sx={{ mt: 2, mb: 4 }}>
-
-          {/* ==== SUMMARY CARDS ==== */}
-          <SummaryCards metrics={summary} />
-
-          {/* ==== OVERVIEW CHARTS ==== */}
-          <Box sx={{ mt: 4, mb: 4 }}>
-            <OverviewCharts charts={chartsData} loading={loading} />
-            {/* <OverviewCharts  /> */}
-          </Box>
-
-          <Grid container spacing={2} sx={{ mt: 2 }}>
-
-            {/* FILTER PANEL */}
-            <Grid item xs={12} md={3}>
-              <FiltersPanel onFilterChange={() => setFilters(prev => ({ ...prev, page: 1 }))}/>
-            </Grid>
-
-            {/* CHARTS PANEL */}
-            <Grid item xs={12} md={9}>
-              <ChartsPanel items={data.items} />
-            </Grid>
-
-            {/* TABLE */}
-            <Grid item xs={12}>
-              <ItemsTable
-                items={data.items}
-                total={data.total}
-                page={data.page}
-                pageSize={data.pageSize}
-                loading={loading}
-                onPageChange={(page) => setFilters(prev => ({ ...prev, page }))}
-                onPageSizeChange={(pageSize) => setFilters(prev => ({ ...prev, pageSize, page: 1 }))}
-                onSortChange={(sortBy, sortDir) => setFilters(prev => ({ ...prev, sortBy, sortDir }))}
-              />
-            </Grid>
-
-          </Grid>
-        </Container>
-      </Box>
-    </Box>
+    </Layout>
   );
 }

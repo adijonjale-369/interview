@@ -41,8 +41,11 @@ export default function ChartsPanel({ items = [] }) {
         <Card>
           <CardContent>
             <Typography variant="subtitle1">Sales Over Time</Typography>
-            <div style={{ height: 250 }}>
-              <LineChart xAxis={[{ data: lineLabels }]} series={[{ data: lineValues, label: 'Sales' }]} />
+            <div style={{ height: 300 }}>
+              <LineChart 
+              xAxis={[{ data: lineLabels, scaleType: "band" }]}
+              series={[{ data: lineValues, label: "Sales" }]}
+               />
             </div>
           </CardContent>
         </Card>
@@ -53,7 +56,7 @@ export default function ChartsPanel({ items = [] }) {
         <Card>
           <CardContent>
             <Typography variant="subtitle1">Monthly Comparison</Typography>
-            <div style={{ height: 250 }}>
+            <div style={{ height: 300 }}>
               <BarChart xAxis={[{ data: barLabels }]} series={[{ data: barValues, label: 'Monthly Sales' }]} />
             </div>
           </CardContent>
@@ -65,7 +68,7 @@ export default function ChartsPanel({ items = [] }) {
         <Card>
           <CardContent>
             <Typography variant="subtitle1">Category Distribution</Typography>
-            <div style={{ height: 250 }}>
+            <div style={{ height: 300 }}>
               <PieChart series={[{ data: pieData, innerRadius: 30, outerRadius: 100 }]} />
             </div>
           </CardContent>
